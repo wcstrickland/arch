@@ -1,0 +1,11 @@
+[battery]
+disabled = false
+format = "[$percentage]($style) "
+[[battery.display]]
+threshold = 100
+style = "bold green"
+[time]
+format = "[$time]($style) "
+time_format = "%I:%M"
+disabled = false
+use_12hr = true

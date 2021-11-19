@@ -1,0 +1,10 @@
+prereqs: sudo pacman -S --needed base-devel git
+# enable multi thread compilation
+optomize: /etc/makepkg.conf  and set MAKEFLAGS="-j$(nproc)" 
+search the aur for a package to get the git clone url
+make a folder for compiled aur packages
+clone the repo in this folder
+cd into the directory containing the source code
+look for PKGBUILD
+USE makepkg -si
+

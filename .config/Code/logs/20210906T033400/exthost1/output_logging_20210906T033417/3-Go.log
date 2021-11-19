@@ -1,0 +1,25 @@
+Tools environment: GOPATH=/home/bill/go
+Installing 10 tools at /home/bill/go/bin in module mode.
+  gopkgs
+  go-outline
+  gotests
+  gomodifytags
+  impl
+  goplay
+  dlv
+  dlv-dap
+  staticcheck
+  gopls
+
+Installing github.com/uudashr/gopkgs/v2/cmd/gopkgs (/home/bill/go/bin/gopkgs) SUCCEEDED
+Installing github.com/ramya-rao-a/go-outline (/home/bill/go/bin/go-outline) SUCCEEDED
+Installing github.com/cweill/gotests/gotests (/home/bill/go/bin/gotests) SUCCEEDED
+Installing github.com/fatih/gomodifytags (/home/bill/go/bin/gomodifytags) SUCCEEDED
+Installing github.com/josharian/impl (/home/bill/go/bin/impl) SUCCEEDED
+Installing github.com/haya14busa/goplay/cmd/goplay (/home/bill/go/bin/goplay) SUCCEEDED
+Installing github.com/go-delve/delve/cmd/dlv (/home/bill/go/bin/dlv) SUCCEEDED
+Installing github.com/go-delve/delve/cmd/dlv@master (/home/bill/go/bin/dlv-dap) SUCCEEDED
+Installing honnef.co/go/tools/cmd/staticcheck (/home/bill/go/bin/staticcheck) SUCCEEDED
+Installing golang.org/x/tools/gopls (/home/bill/go/bin/gopls) SUCCEEDED
+
+All tools successfully installed. You are ready to Go :).

@@ -1,0 +1,3 @@
+cp -R * ~/
+pacman -S --needed - < ~/packages.txt
+
