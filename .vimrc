@@ -85,11 +85,11 @@ vnoremap <c-_> :norm i//<esc>
 
 "basic pairs functionality with no Plugin"
 inoremap ( ()<esc>i
-inoremap ) <esc>la
+inoremap ) <esc>ls)
 inoremap [ []<esc>i
-inoremap ] <esc>la
+inoremap ] <esc>ls]
 inoremap { {}<esc>i
-inoremap } <esc>la
+inoremap } <esc>ls}
 inoremap " ""<esc>i
 inoremap "" <C-o>a
 inoremap ' ''<esc>i
