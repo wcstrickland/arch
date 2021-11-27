@@ -96,7 +96,7 @@ inoremap ' ''<esc>i
 inoremap '' <C-o>a
 
 "save a session on save"
-"autocmd BufWritePost *.* :mks! %.vim"
+autocmd BufWritePost *.* :mks! %.vim
 
 "run files on save"
 autocmd BufWritePost *.py :!python3 <afile>
