@@ -9,6 +9,7 @@ bison
 cheese
 cmake
 cmatrix
+cowsay
 dhcpcd
 discord
 dosfstools
@@ -68,7 +69,9 @@ neofetch
 net-tools
 netctl
 networkmanager
+npm
 ntfs-3g
+onefetch
 openbox
 os-prober
 pacman
@@ -79,6 +82,7 @@ picom
 pkgconf
 pulseaudio
 pulseaudio-alsa
+python-pip
 ranger
 reflector
 rofi
