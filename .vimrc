@@ -96,6 +96,18 @@ inoremap "" <C-o>a
 inoremap ' ''<esc>i
 inoremap '' <C-o>a
 
+"surround"
+vnoremap <leader>( di()<esc>P
+vnoremap <leader>[ di[]<esc>P
+vnoremap <leader>{ di{}<esc>P
+vnoremap <leader>' di''<esc>P
+vnoremap <leader>" di""<esc>P
+
+nnoremap <leader>( diwi()<esc>P
+nnoremap <leader>[ diwi[]<esc>P
+nnoremap <leader>{ diwi{}<esc>P
+nnoremap <leader>' diwi''<esc>P
+nnoremap <leader>" diwi""<esc>P
 
 "preview markdown files on save"
 "requires latex and pandoc"
