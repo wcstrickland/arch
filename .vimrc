@@ -25,6 +25,7 @@ set termwinsize=10*0  "default terminal size"
 set tabstop=4 "number of spaces per tab"
 set shiftwidth=4 "indent size"
 set expandtab "tabs are 4 spaces"
+set autoindent
 set clipboard=unnamedplus "allows pasting from OS clipboard"
 "set clipboard^=unamed"
 
@@ -82,7 +83,8 @@ nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-l> <c-w>l
 
-vnoremap <c-_> :norm i//<esc>
+vnoremap <c-_> :norm 0i//<esc>
+vnoremap <c-[> :norm 0i#<esc>
 
 "basic pairs functionality with no Plugin"
 inoremap ( ()<esc>i
@@ -90,6 +92,7 @@ inoremap ) <esc>la
 inoremap [ []<esc>i
 inoremap ] <esc>la
 inoremap { {}<esc>i
+inoremap {<cr> {<cr>}<esc>O<tab>
 inoremap } <esc>la
 inoremap " ""<esc>i
 inoremap "" <C-o>a
