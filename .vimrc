@@ -48,7 +48,6 @@ inoremap <leader>div <div className=""><CR><CR></div><esc>kkf"a
 "paragraph tag"
 inoremap <leader>p <p><cr><cr></p><esc>ki
 "react component tag"
-inoremap <leader>c </><esc>hi
 "for loop"
 inoremap <leader>for for(let i = 0; i<; i++){<CR>console.log();<CR>}<esc>kkf<a
 "try catch block"
@@ -62,11 +61,13 @@ inoremap <leader>func function (){<cr>console.log();<cr>}<esc>kkf(i
 "arrow function"
 inoremap <leader>> ()=>{<cr>console.log();<cr>}<esc>kkf)i
 "go boiler"
-"inoremap <leader>go package main<cr><cr>import (<cr><tab>"fmt"<cr>)<cr>func main(){<cr><tab>fmt.Println("helloworld")<cr>}"
+inoremap <leader>go package main<cr><cr>import (<cr><tab>"fmt"<cr>)<cr>func main(){<cr><tab>fmt.Println("helloworld")<cr>}
 "go errorcheck"
-"inoremap <leader>err if err != nil {<cr><tab>fmt.Println("error:", err)<cr>}"
+inoremap <leader>err if err != nil {<cr><tab>fmt.Println("error:", err)<cr>}
 "python main"
-inoremap <leader>main <CR><CR>def main():<CR><tab>pass<CR><CR><CR>if __name__ == "__main__":<CR><tab>main()<esc>ggidef
+inoremap <leader>main <CR><CR>def main():<CR><tab>pass<CR><CR><CR>if __name__ == "__main__":<CR><tab>main()
+"java boiler"
+inoremap <leader>java import java.util.*;<CR><CR>class xx {<CR><CR>}<esc>ka<CR><tab>public static void main(String[] args){<CR><CR><CR><esc>ki<tab>}<esc>k<esc>i<tab><tab>
 
 "simple statusline"
 set statusline=
@@ -85,25 +86,38 @@ vnoremap <c-_> :norm i//<esc>
 
 "basic pairs functionality with no Plugin"
 inoremap ( ()<esc>i
-inoremap ) <esc>ls)
+inoremap ) <esc>la
 inoremap [ []<esc>i
-inoremap ] <esc>ls]
+inoremap ] <esc>la
 inoremap { {}<esc>i
-inoremap } <esc>ls}
+inoremap } <esc>la
 inoremap " ""<esc>i
 inoremap "" <C-o>a
 inoremap ' ''<esc>i
 inoremap '' <C-o>a
 
+
+"preview markdown files on save"
+"requires latex and pandoc"
+"autocmd BufWritePost *.md !pandoc <afile> -o %.pdf"
+
+autocmd BufWritePost *.java !javac <afile>
+
 "save a session on save"
 autocmd BufWritePost *.* :mks! %.vim
+autocmd BufWinLeave *.* mkview
+autocmd BufWinEnter *.* silent loadview 
 
-"run files on save"
+"format go on save"
+
+"load a docs file everytime a .js file is opened"
+"au BufRead * :badd ~/.vim/git.md"
+"au BufNewFile * :badd ~/.vim/git.md"
+
+"run current js file in node"
 autocmd BufWritePost *.py :!python3 <afile>
 autocmd BufWritePost *.js :!node <afile>
 autocmd BufWritePost *.java :!javac <afile>
-
-
 
 "recursive rough spell check macro: requires turning spelling on first with :set spell"
 let @s="]s1z=@s"
