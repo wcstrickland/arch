@@ -1,6 +1,5 @@
 set nocompatible
 
-
 syntax on
 colorscheme ron
 
@@ -25,32 +24,50 @@ set termwinsize=10*0  "default terminal size"
 set tabstop=4 "number of spaces per tab"
 set shiftwidth=4 "indent size"
 set expandtab "tabs are 4 spaces"
-set autoindent
-set clipboard=unnamedplus "allows pasting from OS clipboard"
+set showcmd "show leader key during timeout period"
+set autoindent 
 "set clipboard^=unamed"
+set clipboard=unnamedplus "allows pasting from OS clipboard"
+"simple statusline"
+set statusline=
+set statusline+=\ %F
+set statusline+=\ %M
+set statusline+=\ %R
+set statusline+=\ %L
+"save a session on save"
+autocmd BufWritePost *.* :mks! %.vim
+"create and load views"
+autocmd BufWinLeave *.* mkview
+autocmd BufWinEnter *.* silent loadview 
+"run current file"
+autocmd BufWritePost *.py :!python3 <afile>
+autocmd BufWritePost *.js :!node <afile>
+autocmd BufWritePost *.java :!javac <afile>
+"recursive rough spell check macro: requires turning spelling on first with :set spell"
+let @s="]s1z=@s"
 
-"normal mode + clear highlighting"
+"rebind esc and clear highlighting"
 inoremap jj <Esc>:silent! nohls<cr> 
+"jumpt to bottom and center"
 nnoremap G Gzz
+"easier close"
 nnoremap zq ZQ
-
-"nerd tree substitue"
-nnoremap <leader>f :Vex 23<CR>
-nnoremap <leader>c :q<CR>
-
+"single line up and down"
+nnoremap j gj
+nnoremap k gk
 
 "autocomplete"
 set completeopt=longest,menuone
-inoremap <leader><leader> <C-n>
+inoremap kk <C-n>
 
+"SHORTCUTS"
 
 "a div and component shortcut""
 inoremap <leader>div <div className=""><CR><CR></div><esc>kkf"a
 "paragraph tag"
 inoremap <leader>p <p><cr><cr></p><esc>ki
-"react component tag"
 "for loop"
-inoremap <leader>for for(let i = 0; i<; i++){<CR>console.log();<CR>}<esc>kkf<a
+inoremap <leader>for for(let i = 0; i<; i++){<CR><tab>console.log();<CR>}<esc>kkf<a
 "try catch block"
 inoremap <leader>try try{<CR><CR>}catch(e){<CR>console.log(e);<CR>}<esc>kkki<tab>
 "if else if else"
@@ -70,18 +87,7 @@ inoremap <leader>main <CR><CR>def main():<CR><tab>pass<CR><CR><CR>if __name__ ==
 "java boiler"
 inoremap <leader>java import java.util.*;<CR><CR>class xx {<CR><CR>}<esc>ka<CR><tab>public static void main(String[] args){<CR><CR><CR><esc>ki<tab>}<esc>k<esc>i<tab><tab>
 
-"simple statusline"
-set statusline=
-set statusline+=\ %F
-set statusline+=\ %M
-set statusline+=\ %R
-set statusline+=\ %L
 
-"improved window nav"
-nnoremap <c-h> <c-w>h
-nnoremap <c-j> <c-w>j
-nnoremap <c-k> <c-w>k
-nnoremap <c-l> <c-w>l
 
 vnoremap <c-_> :norm 0i//<esc>
 vnoremap <c-[> :norm 0i#<esc>
@@ -93,12 +99,14 @@ inoremap [ []<esc>i
 inoremap ] <esc>la
 inoremap { {}<esc>i
 inoremap {<cr> {<cr>}<esc>O<tab>
+inoremap :<cr> :<cr><tab>
 inoremap } <esc>la
 inoremap " ""<esc>i
 inoremap "" <C-o>a
 inoremap ' ''<esc>i
 inoremap '' <C-o>a
 
+let mapleader = " "
 "surround"
 vnoremap <leader>( di()<esc>P
 vnoremap <leader>[ di[]<esc>P
@@ -112,27 +120,11 @@ nnoremap <leader>{ diwi{}<esc>P
 nnoremap <leader>' diwi''<esc>P
 nnoremap <leader>" diwi""<esc>P
 
-"preview markdown files on save"
-"requires latex and pandoc"
-"autocmd BufWritePost *.md !pandoc <afile> -o %.pdf"
+"nerd tree substitue"
+nnoremap <leader>f :Vex 23<CR>
 
-autocmd BufWritePost *.java !javac <afile>
-
-"save a session on save"
-autocmd BufWritePost *.* :mks! %.vim
-autocmd BufWinLeave *.* mkview
-autocmd BufWinEnter *.* silent loadview 
-
-"format go on save"
-
-"load a docs file everytime a .js file is opened"
-"au BufRead * :badd ~/.vim/git.md"
-"au BufNewFile * :badd ~/.vim/git.md"
-
-"run current js file in node"
-autocmd BufWritePost *.py :!python3 <afile>
-autocmd BufWritePost *.js :!node <afile>
-autocmd BufWritePost *.java :!javac <afile>
-
-"recursive rough spell check macro: requires turning spelling on first with :set spell"
-let @s="]s1z=@s"
+"improved window nav"
+nnoremap <leader>h <c-w>h
+nnoremap <leader>j <c-w>j
+nnoremap <leader>k <c-w>k
+nnoremap <leader>l <c-w>l
