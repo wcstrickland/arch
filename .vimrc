@@ -2,6 +2,14 @@ set nocompatible
 
 syntax on
 colorscheme ron
+filetype plugin on
+
+"PLUGIN SECTION"
+
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
 
 "file explorer"
 let g:netrw_banner=0  "no banner"
@@ -25,7 +33,11 @@ set tabstop=4 "number of spaces per tab"
 set shiftwidth=4 "indent size"
 set expandtab "tabs are 4 spaces"
 set showcmd "show leader key during timeout period"
+set ignorecase 
 set autoindent 
+set noerrorbells
+set novisualbell
+set cc=80
 "set clipboard^=unamed"
 set clipboard=unnamedplus "allows pasting from OS clipboard"
 "simple statusline"
@@ -55,6 +67,9 @@ nnoremap zq ZQ
 "single line up and down"
 nnoremap j gj
 nnoremap k gk
+"better bol"
+nnoremap 0 ^
+
 
 "autocomplete"
 set completeopt=longest,menuone
@@ -89,8 +104,6 @@ inoremap <leader>main def<CR><cr>def main():<cr><tab>pass<cr><cr><esc>Iif __name
 inoremap <leader>java import java.util.*;<CR><CR>class xx {<CR><CR>}<esc>ka<CR><tab>public static void main(String[] args){<CR><CR><CR><esc>ki<tab>}<esc>k<esc>i<tab><tab>
 
 
-
-
 "basic pairs functionality with no Plugin"
 inoremap ( ()<esc>i
 inoremap ) <esc>la
@@ -120,7 +133,7 @@ nnoremap <leader>' diwi''<esc>P
 nnoremap <leader>" diwi""<esc>P
 
 "nerd tree substitue"
-nnoremap <leader>f :Vex 23<CR>
+nnoremap <leader>f :Vex 20<CR>
 nnoremap <leader>q ZQ
 nnoremap <leader>w :w<CR>
 
@@ -133,6 +146,10 @@ nnoremap <leader>h <c-w>h
 nnoremap <leader>j <c-w>j
 nnoremap <leader>k <c-w>k
 nnoremap <leader>l <c-w>l
+
+"change tabs"
+nnoremap H gT
+nnoremap L gt
 
 "move highlighted blocks up and down"
 vnoremap J :m '>+1<CR>gv=gv
