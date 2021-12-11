@@ -35,12 +35,12 @@ set statusline+=\ %M
 set statusline+=\ %R
 set statusline+=\ %L
 "save a session on save"
-autocmd BufWritePost *.* :mks! %.vim
+"autocmd BufWritePost *.* :mks! %.vim"
 "create and load views"
 autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview 
 "run current file"
-autocmd BufWritePost *.py :!python3 <afile>
+autocmd BufWritePost *.py :!python3 <afile> 
 autocmd BufWritePost *.js :!node <afile>
 autocmd BufWritePost *.java :!javac <afile>
 "recursive rough spell check macro: requires turning spelling on first with :set spell"
@@ -59,6 +59,7 @@ nnoremap k gk
 "autocomplete"
 set completeopt=longest,menuone
 inoremap kk <C-n>
+
 
 "SHORTCUTS"
 
@@ -83,14 +84,12 @@ inoremap <leader>go package main<cr><cr>import (<cr><tab>"fmt"<cr>)<cr>func main
 "go errorcheck"
 inoremap <leader>err if err != nil {<cr><tab>fmt.Println("error:", err)<cr>}
 "python main"
-inoremap <leader>main <CR><CR>def main():<CR><tab>pass<CR><CR><CR>if __name__ == "__main__":<CR><tab>main()
+inoremap <leader>main def<CR><cr>def main():<cr><tab>pass<cr><cr><esc>Iif __name__ == "__main__":<cr><tab>main()
 "java boiler"
 inoremap <leader>java import java.util.*;<CR><CR>class xx {<CR><CR>}<esc>ka<CR><tab>public static void main(String[] args){<CR><CR><CR><esc>ki<tab>}<esc>k<esc>i<tab><tab>
 
 
 
-vnoremap <c-_> :norm 0i//<esc>
-vnoremap <c-[> :norm 0i#<esc>
 
 "basic pairs functionality with no Plugin"
 inoremap ( ()<esc>i
@@ -122,9 +121,19 @@ nnoremap <leader>" diwi""<esc>P
 
 "nerd tree substitue"
 nnoremap <leader>f :Vex 23<CR>
+nnoremap <leader>q ZQ
+nnoremap <leader>w :w<CR>
+
+"commenting"
+vnoremap <C-_> :norm 0i//<esc>
+vnoremap <leader>c :norm 0i#<esc>
 
 "improved window nav"
 nnoremap <leader>h <c-w>h
 nnoremap <leader>j <c-w>j
 nnoremap <leader>k <c-w>k
 nnoremap <leader>l <c-w>l
+
+"move highlighted blocks up and down"
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
