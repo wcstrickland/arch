@@ -3,13 +3,14 @@ set nocompatible
 syntax on
 colorscheme ron
 filetype plugin on
+packloadall
 
 "PLUGIN SECTION"
 
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
+"au VimEnter * RainbowParenthesesToggle"
+"au Syntax * RainbowParenthesesLoadRound"
+"au Syntax * RainbowParenthesesLoadSquare"
+"au Syntax * RainbowParenthesesLoadBraces"
 
 "file explorer"
 let g:netrw_banner=0  "no banner"
@@ -37,7 +38,7 @@ set ignorecase
 set autoindent 
 set noerrorbells
 set novisualbell
-set cc=80
+highlight ColorColumn ctermbg=8
 "set clipboard^=unamed"
 set clipboard=unnamedplus "allows pasting from OS clipboard"
 "simple statusline"
@@ -51,9 +52,10 @@ set statusline+=\ %L
 "create and load views"
 autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview 
+autocmd VimEnter *.* :set cc=80
 "run current file"
-autocmd BufWritePost *.py :!python3 <afile> 
-autocmd BufWritePost *.js :!node <afile>
+autocmd BufWritePost *.py :vnew | r !python3 #
+autocmd BufWritePost *.js :vnew | r !node #
 autocmd BufWritePost *.java :!javac <afile>
 "recursive rough spell check macro: requires turning spelling on first with :set spell"
 let @s="]s1z=@s"
