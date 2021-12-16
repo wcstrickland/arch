@@ -54,8 +54,9 @@ autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview 
 autocmd VimEnter *.* :set cc=80
 "run current file"
-autocmd BufWritePost *.py :vnew | r !python3 #
-autocmd BufWritePost *.js :vnew | r !node #
+autocmd BufWritePost *.py :vnew | 0r !python3 #
+autocmd BufWritePost *.js :vnew | 0r !node #
+autocmd BufWritePost *.ts :vnew | 0r !tsc
 autocmd BufWritePost *.java :!javac <afile>
 "recursive rough spell check macro: requires turning spelling on first with :set spell"
 let @s="]s1z=@s"
@@ -69,8 +70,6 @@ nnoremap zq ZQ
 "single line up and down"
 nnoremap j gj
 nnoremap k gk
-"better bol"
-nnoremap 0 ^
 
 
 "autocomplete"
@@ -156,3 +155,9 @@ nnoremap L gt
 "move highlighted blocks up and down"
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
+
+nnoremap <leader>/ :g//#<left><left>
+
+"better bol"
+nnoremap - _
+nnoremap + $
