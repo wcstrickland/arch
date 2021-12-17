@@ -20,6 +20,7 @@ let g:netrw_alto=0    "preview to right"
 let g:netrw_preview=1  "privew vert"
 
 "default formatting"
+set display=lastline
 set hlsearch  "highlight search"
 set hidden "allow buffer abandonment"
 set laststatus=2   "always show status"
@@ -54,9 +55,9 @@ autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview 
 autocmd VimEnter *.* :set cc=80
 "run current file"
-autocmd BufWritePost *.py :vnew | 0r !python3 #
-autocmd BufWritePost *.js :vnew | 0r !node #
-autocmd BufWritePost *.ts :vnew | 0r !tsc
+autocmd BufWritePost *.py :!python3 <afile>
+autocmd BufWritePost *.js :!node <afile>
+autocmd BufWritePost *.ts :!tsc 
 autocmd BufWritePost *.java :!javac <afile>
 "recursive rough spell check macro: requires turning spelling on first with :set spell"
 let @s="]s1z=@s"
@@ -127,16 +128,12 @@ vnoremap <leader>{ di{}<esc>P
 vnoremap <leader>' di''<esc>P
 vnoremap <leader>" di""<esc>P
 
-nnoremap <leader>( diwi()<esc>P
-nnoremap <leader>[ diwi[]<esc>P
-nnoremap <leader>{ diwi{}<esc>P
-nnoremap <leader>' diwi''<esc>P
-nnoremap <leader>" diwi""<esc>P
 
 "nerd tree substitue"
 nnoremap <leader>f :Vex 20<CR>
 nnoremap <leader>q ZQ
 nnoremap <leader>w :w<CR>
+autocmd VimResized * wincmd =
 
 "commenting"
 vnoremap <C-_> :norm 0i//<esc>
@@ -156,7 +153,15 @@ nnoremap L gt
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
 
-nnoremap <leader>/ :g//#<left><left>
+"dont select next on search under cursor"
+nnoremap * *N
+
+"register stuff"
+nnoremap R "
+nnoremap <leader>r :reg<cr>:put 
+
+"search list"
+nnoremap Q [I
 
 "better bol"
 nnoremap - _

@@ -9,13 +9,16 @@ alias ls='exa'
 alias cat='bat'
 alias ..='cd ..'
 alias mv='mv -i'
-alias gs='onefetch; git status'
-alias glo='onefetch; git status'
-alias wifis='git log --oneline'
+alias fishtank='asciiquarium'
+alias glo='git log --oneline'
+alias gs='onefetch;git status'
+alias wifis='nmcli device wifi'
+alias hibernate='systemctl hibernate'
+function vima
+    vim $argv ./*
+end
 # export default editor and terminal
 set -x EDITOR vim
 set -x VISUAL vim
-set -x TERM xterm
-set -x TERMINAL xterm
 # use starship prompt
-#starship init fish | source
+starship init fish | source
