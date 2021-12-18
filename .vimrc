@@ -39,7 +39,6 @@ set ignorecase
 set autoindent 
 set noerrorbells
 set novisualbell
-highlight ColorColumn ctermbg=8
 "set clipboard^=unamed"
 set clipboard=unnamedplus "allows pasting from OS clipboard"
 "simple statusline"
@@ -53,25 +52,19 @@ set statusline+=\ %L
 "create and load views"
 autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview 
+"set 80char warning colum"
 autocmd VimEnter *.* :set cc=80
-"run current file"
-autocmd BufWritePost *.py :!python3 <afile>
-autocmd BufWritePost *.js :!node <afile>
-autocmd BufWritePost *.ts :!tsc 
-autocmd BufWritePost *.java :!javac <afile>
+highlight ColorColumn ctermbg=8
 "recursive rough spell check macro: requires turning spelling on first with :set spell"
 let @s="]s1z=@s"
 
 "rebind esc and clear highlighting"
-inoremap jj <Esc>:silent! nohls<cr> 
+inoremap jj <Esc>:nohls<cr> 
 "jumpt to bottom and center"
 nnoremap G Gzz
-"easier close"
-nnoremap zq ZQ
 "single line up and down"
 nnoremap j gj
 nnoremap k gk
-
 
 "autocomplete"
 set completeopt=longest,menuone
@@ -80,30 +73,22 @@ inoremap kk <C-n>
 
 "SHORTCUTS"
 
-"a div and component shortcut""
-inoremap <leader>div <div className=""><CR><CR></div><esc>kkf"a
-"paragraph tag"
-inoremap <leader>p <p><cr><cr></p><esc>ki
 "for loop"
-inoremap <leader>for for(let i = 0; i<; i++){<CR><tab>console.log();<CR>}<esc>kkf<a
+inoremap <leader>for for(let i = 0; i<; i++){<CR>console.log();<CR>}<esc>k>>kf<a
+"for of"
+inoremap <leader>of for(let el of ){<CR>console.log(el);<CR>}<esc>k>>kf)i
 "try catch block"
-inoremap <leader>try try{<CR><CR>}catch(e){<CR>console.log(e);<CR>}<esc>kkki<tab>
+inoremap <leader>try try{<CR><CR>}catch(e){<CR>console.log(e);<CR>}<esc>k>>kki<tab>
 "if else if else"
 inoremap <leader>elif if(){<CR>console.log();<CR>}else if(){<CR>console.log();<CR>}else{<CR>console.log();<CR>}<esc>6kf)i
 "map"
 inoremap <leader>map map((x) => ())<Esc>hi
 "function"
-inoremap <leader>func function (){<cr>console.log();<cr>}<esc>kkf(i
+inoremap <leader>func function (){<cr>console.log();<cr>}<esc>k>>kf(i
 "arrow function"
-inoremap <leader>> ()=>{<cr>console.log();<cr>}<esc>kkf)i
-"go boiler"
-inoremap <leader>go package main<cr><cr>import (<cr><tab>"fmt"<cr>)<cr>func main(){<cr><tab>fmt.Println("helloworld")<cr>}
-"go errorcheck"
-inoremap <leader>err if err != nil {<cr><tab>fmt.Println("error:", err)<cr>}
+inoremap <leader>> ()=>{<cr>console.log();<cr>}<esc>k>>kf)i
 "python main"
 inoremap <leader>main def<CR><cr>def main():<cr><tab>pass<cr><cr><esc>Iif __name__ == "__main__":<cr><tab>main()
-"java boiler"
-inoremap <leader>java import java.util.*;<CR><CR>class xx {<CR><CR>}<esc>ka<CR><tab>public static void main(String[] args){<CR><CR><CR><esc>ki<tab>}<esc>k<esc>i<tab><tab>
 
 
 "basic pairs functionality with no Plugin"
@@ -121,6 +106,31 @@ inoremap ' ''<esc>i
 inoremap '' <C-o>a
 
 let mapleader = " "
+
+"set linter and run with every save"
+autocmd FileType python compiler pylint
+autocmd FileType javascirpt compiler eslint
+autocmd BufWritePost *.py,*.js silent make! <afile> | silent redraw!
+"quickfix list"
+function! ToggleQuickFix()
+    if empty(filter(getwininfo(), 'v:val.quickfix'))
+        copen
+        wincmd k
+    else
+        cclose
+    endif
+endfunction
+nnoremap <silent>Q :call ToggleQuickFix()<cr>
+nnoremap J :cnext<cr>
+nnoremap K :cNext<cr>
+
+"replace"
+nnoremap R :%s//g<left><left>
+
+"close and open"
+nnoremap <leader>q ZQ
+nnoremap <leader>w :w<CR>
+
 "surround"
 vnoremap <leader>( di()<esc>P
 vnoremap <leader>[ di[]<esc>P
@@ -131,8 +141,6 @@ vnoremap <leader>" di""<esc>P
 
 "nerd tree substitue"
 nnoremap <leader>f :Vex 20<CR>
-nnoremap <leader>q ZQ
-nnoremap <leader>w :w<CR>
 autocmd VimResized * wincmd =
 
 "commenting"
@@ -145,9 +153,9 @@ nnoremap <leader>j <c-w>j
 nnoremap <leader>k <c-w>k
 nnoremap <leader>l <c-w>l
 
-"change tabs"
-nnoremap H gT
-nnoremap L gt
+"change buffers"
+nnoremap H :bn<cr>
+nnoremap L :bp<cr>
 
 "move highlighted blocks up and down"
 vnoremap J :m '>+1<CR>gv=gv
@@ -157,12 +165,15 @@ vnoremap K :m '<-2<CR>gv=gv
 nnoremap * *N
 
 "register stuff"
-nnoremap R "
-nnoremap <leader>r :reg<cr>:put 
+nnoremap <leader>y "
+nnoremap <leader>p :reg<cr>:put 
+
+"buffer stuff"
+nnoremap <leader>b :ls<cr>:
 
 "search list"
-nnoremap Q [I
+nnoremap <leader>/ [I
 
-"better bol"
+"better bol/eol"
 nnoremap - _
 nnoremap + $
