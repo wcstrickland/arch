@@ -105,6 +105,20 @@ function! PassOverClosing(char)
     endif
 endfunction
 
+function! PassOverQuotes(char)
+    let g:singles = ''
+    let g:doubles = ""
+    let g:closers = [g:singles, g:doubles]
+    let g:curChar = getline('.')[col('.')-0]
+    if index(g:closers, g:curChar) >= 0
+        execute "normal! i"a:char.a:char
+        execute "normal! h"
+    else
+        normal la
+    endif
+endfunction
+
+
 inoremap ( ()<esc>i
 inoremap <silent>) <esc>:call PassOverClosing(')')<cr>a
 inoremap [ []<esc>i
@@ -113,10 +127,8 @@ inoremap { {}<esc>i
 inoremap <silent>} <esc>:call PassOverClosing('}')<cr>a
 inoremap {<cr> {<cr>}<esc>O<tab>
 inoremap :<cr> :<cr><tab>
-inoremap " ""<esc>i
-inoremap "" <C-o>a"
-inoremap ' ''<esc>i
-inoremap '' <C-o>a
+inoremap <silent>" <esc>:call PassOverQuotes('"')<cr>a
+inoremap <silent>' <esc>:call PassOverQuotes('''')<cr>a
 
 let mapleader = " "
 
@@ -173,6 +185,9 @@ nnoremap L :bp<cr>
 "jumplist"
 nnoremap <leader>i <c-i>
 nnoremap <leader>o <c-o>
+
+ "marks"
+ nnoremap M `
 
 "move highlighted blocks up and down"
 vnoremap J :m '>+1<CR>gv=gv
