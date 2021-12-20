@@ -1,3 +1,9 @@
+"       _                    "
+"__   _(_)_ __ ___  _ __ ___ "
+"\ \ / / | '_ ` _ \| '__/ __|"
+" \ V /| | | | | | | | | (__ "
+"(_)_/ |_|_| |_| |_|_|  \___|"
+"                            "
 "headers"
 set nocompatible
 syntax on
@@ -111,12 +117,13 @@ function! PassOverQuotes(char)
     let g:closers = [g:singles, g:doubles]
     let g:curChar = getline('.')[col('.')-0]
     if index(g:closers, g:curChar) >= 0
-        execute "normal! i"a:char.a:char
+        execute "normal! a"a:char.a:char
         execute "normal! h"
     else
         normal la
     endif
 endfunction
+
 
 
 inoremap ( ()<esc>i
@@ -197,7 +204,6 @@ vnoremap K :m '<-2<CR>gv=gv
 nnoremap * *N
 
 "register good stuff"
-nnoremap <leader>y "
 nnoremap <leader>p :reg<cr>:put 
 
 "buffer good stuff"
