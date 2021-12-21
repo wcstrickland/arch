@@ -28,7 +28,7 @@ let g:netrw_preview=1  "privew vert"
 "default formatting"
 set display=lastline
 set hlsearch  "highlight search"
-set hidden "allow buffer abandonment"
+set hidden
 set laststatus=2   "always show status"
 set splitright    "default vert split"
 set splitbelow "causes splits below"
@@ -188,13 +188,16 @@ nnoremap <leader>l <c-w>l
 "change buffers"
 nnoremap H :bn<cr>
 nnoremap L :bp<cr>
+nnoremap <leader>b :ls<cr>:
 
 "jumplist"
+nnoremap S :ju<cr>
 nnoremap <leader>i <c-i>
 nnoremap <leader>o <c-o>
 
- "marks"
- nnoremap M `
+"marks"
+nnoremap M :marks a-z<cr>:normal `
+nnoremap <leader>m :marks A-Z<cr>:normal `
 
 "move highlighted blocks up and down"
 vnoremap J :m '>+1<CR>gv=gv
@@ -205,10 +208,6 @@ nnoremap * *N
 
 "register good stuff"
 nnoremap <leader>p :reg<cr>:put 
-
-"buffer good stuff"
-nnoremap <leader>b :ls<cr>:
-
 
 "search list for word under cursor"
 nnoremap <leader>* [I:
