@@ -44,6 +44,7 @@ set showcmd "show leader key during timeout period"
 set ignorecase 
 set autoindent 
 set noerrorbells
+set autochdir
 set novisualbell
 "set clipboard^=unamed"
 set clipboard=unnamedplus "allows pasting from OS clipboard"
@@ -125,7 +126,6 @@ function! PassOverQuotes(char)
 endfunction
 
 
-
 inoremap ( ()<esc>i
 inoremap <silent>) <esc>:call PassOverClosing(')')<cr>a
 inoremap [ []<esc>i
@@ -137,7 +137,17 @@ inoremap :<cr> :<cr><tab>
 inoremap <silent>" <esc>:call PassOverQuotes('"')<cr>a
 inoremap <silent>' <esc>:call PassOverQuotes('''')<cr>a
 
+ 
 let mapleader = " "
+
+"projects"
+function! SetProject()
+    let path = expand('%:p')
+    let g:stub = matchstr(path, '\v\/home\/bill\/[a-z]*[A-Z]*[0-9]*\/')
+    let g:full =  "'100,<50,s10,h,n" . g:stub .  '.viminfo'
+    let &viminfo = g:full
+endfunction
+autocmd BufRead *.* :call SetProject()
 
 "set linter and run with every save"
 autocmd FileType python compiler pylint
@@ -157,12 +167,14 @@ nnoremap <silent>Q :call ToggleQuickFix()<cr>
 nnoremap J :cnext<cr>
 nnoremap K :cNext<cr>
 
+
 "replace exact word under cursor"
 nnoremap R :%s/\<<c-r>=expand("<cword>")<cr>\>//gc<left><left><left>
 
 "close and open"
-nnoremap <leader>q ZQ
+nnoremap <leader>q :q<cr>
 nnoremap <leader>w :w<CR>
+nnoremap zq ZQ
 
 "surround"
 vnoremap <leader>( di()<esc>P
@@ -188,7 +200,7 @@ nnoremap <leader>l <c-w>l
 "change buffers"
 nnoremap H :bn<cr>
 nnoremap L :bp<cr>
-nnoremap <leader>b :ls<cr>:
+nnoremap <leader>b :ls<cr>:b<space>
 
 "jumplist"
 nnoremap S :ju<cr>
@@ -196,8 +208,8 @@ nnoremap <leader>i <c-i>
 nnoremap <leader>o <c-o>
 
 "marks"
-nnoremap M :marks a-z<cr>:normal `
-nnoremap <leader>m :marks A-Z<cr>:normal `
+nnoremap M :marks abcdefghijklmnopqrstuvwxyz<cr>:normal `
+nnoremap <leader>m :marks ABCDEFGHIJKLMNOPQRSTUVWXYZ<cr>:normal `
 
 "move highlighted blocks up and down"
 vnoremap J :m '>+1<CR>gv=gv
@@ -214,6 +226,7 @@ nnoremap <leader>* [I:
 
 "search list"
 nnoremap <leader>/ :g/
+
 
 "better bol/eol"
 nnoremap - _
