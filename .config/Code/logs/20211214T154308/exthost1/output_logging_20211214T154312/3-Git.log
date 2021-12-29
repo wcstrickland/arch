@@ -1,0 +1,96 @@
+Validating found git in: git
+Using git 2.34.1 from git
+Opening repository for path='/home/bill/prog/ts' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/bill/prog/ts' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/bill/prog/ts/binSearch.ts' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/bill/prog/ts/isPalindrome.js' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/bill/prog/ts/isPalindrome.ts' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/bill/prog/ts/linkedList.js' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/bill/prog/ts/linkedList.ts' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/bill/prog/ts/output' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/bill/prog/ts/removeDups.js' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/bill/prog/ts/removeDups.ts' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/bill/prog/ts/removeDups.ts.vim' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/bill/prog/ts/reverseString.ts' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/bill/prog/ts/tsconfig.json' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/bill/prog/ts' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/bill/prog/ts/output' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/bill/prog/ts/output' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/bill/prog/ts/output' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/bill/prog/ts' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/bill/prog/ts' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/bill/prog/ts' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/bill/prog/ts' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/bill/prog/ts/output' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}

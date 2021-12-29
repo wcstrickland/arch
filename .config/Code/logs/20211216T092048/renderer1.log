@@ -1,0 +1,8 @@
+[2021-12-16 09:20:49.829] [renderer1] [info] Starting extension host with pid 19466.
+[2021-12-16 09:20:49.829] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 45 ms.
+[2021-12-16 09:20:50.771] [renderer1] [error] [Extension Host] (node:19466) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-16 09:21:41.508] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+    at /home/bill/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+    at p (/home/bill/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+    at x.provideCompletionItems (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:181124)

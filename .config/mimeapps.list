@@ -1,0 +1,6 @@
+[Default Applications]
+x-scheme-handler/mailto=google-chrome.desktop
+
+[Added Associations]
+application/pdf=libreoffice-draw.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-draw.desktop;

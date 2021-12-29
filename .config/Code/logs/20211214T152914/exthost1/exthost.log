@@ -1,0 +1,32 @@
+[2021-12-14 15:29:17.368] [exthost] [info] Extension host with pid 12635 started
+[2021-12-14 15:29:17.368] [exthost] [info] Skipping acquiring lock for /home/bill/.config/Code/User/workspaceStorage/fda22da6af18ee518be015fe47648571.
+[2021-12-14 15:29:17.570] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-14 15:29:17.584] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.vscode-pylance
+[2021-12-14 15:29:17.697] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-14 15:29:17.874] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-14 15:29:17.879] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-14 15:29:17.911] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2021-12-14 15:29:18.446] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2021-12-14 15:29:18.448] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-14 15:29:18.585] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-14 15:29:18.755] [exthost] [info] Eager extensions activated
+[2021-12-14 15:29:18.771] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-14 15:29:18.783] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-14 15:29:18.786] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-14 15:29:18.797] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-14 15:29:18.837] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-14 15:29:19.520] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-12-14 15:29:19.523] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-12-14 15:29:19.541] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-12-14 15:29:30.675] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-14 15:29:30.775] [exthost] [error] ProxyResolver#resolveProxy Canceled: Canceled
+    at Object.i [as canceled] (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+    at n._remoteCall (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:13876)
+    at Proxy.N.<computed>.F.charCodeAt.N.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:10271)
+    at u.resolveProxy (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:39347)
+    at Object.resolveProxy (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:58426)
+    at useProxySettings (/opt/visual-studio-code/resources/app/node_modules.asar/vscode-proxy-agent/out/index.js:159:16)
+    at /opt/visual-studio-code/resources/app/node_modules.asar/vscode-proxy-agent/out/index.js:107:13
+    at /opt/visual-studio-code/resources/app/node_modules.asar/vscode-proxy-agent/out/index.js:335:13
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+[2021-12-14 15:29:31.760] [exthost] [info] Extension host with pid 12635 exiting with code 0

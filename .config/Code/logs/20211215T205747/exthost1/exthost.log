@@ -1,0 +1,74 @@
+[2021-12-15 20:57:50.678] [exthost] [info] Extension host with pid 11889 started
+[2021-12-15 20:57:50.678] [exthost] [info] Skipping acquiring lock for /home/bill/.config/Code/User/workspaceStorage/fda22da6af18ee518be015fe47648571.
+[2021-12-15 20:57:50.804] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-15 20:57:50.821] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-15 20:57:50.827] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-15 20:57:50.875] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2021-12-15 20:57:50.953] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:Pipfile'
+[2021-12-15 20:57:51.373] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-15 20:57:51.478] [exthost] [info] Eager extensions activated
+[2021-12-15 20:57:51.502] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-15 20:57:51.510] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-15 20:57:51.529] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-15 20:57:51.593] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-15 20:57:51.768] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-15 20:57:52.124] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+[2021-12-15 20:57:56.886] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-12-15 20:57:56.892] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-12-15 20:57:56.918] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-12-15 20:58:20.487] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-15 20:58:21.454] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2021-12-15 20:58:21.478] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-15 20:58:21.478] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/bill/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/bill/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/bill/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:124663
+    at s.provideDocumentSymbols (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:167312)
+[2021-12-15 21:01:44.084] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-15 21:01:44.084] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/bill/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/bill/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/bill/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+    at d.provideHover (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170516)
+[2021-12-15 21:03:08.763] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-15 21:03:08.763] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/bill/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/bill/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/bill/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:123609
+    at m.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:171454)
+[2021-12-15 21:03:12.976] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-15 21:03:12.976] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/bill/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/bill/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/bill/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:123609
+    at m.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:171454)
+[2021-12-15 21:06:08.334] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-15 21:06:08.334] [exthost] [error] Canceled: Canceled
+    at S.makeCancelError (/home/bill/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+    at S.handleFailedRequest (/home/bill/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+    at /home/bill/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:123609
+    at m.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:171454)
+[2021-12-15 21:06:25.096] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-15 21:06:25.096] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-15 21:06:57.229] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-15 21:06:57.229] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-15 21:06:57.241] [exthost] [warning] {"name":"DISPOSED","message":"TextEditor(vs.editor.ICodeEditor:1,$model3) has been disposed"}
+[2021-12-15 21:06:59.937] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-15 21:06:59.937] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-15 21:07:01.148] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-15 21:07:01.148] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-15 21:07:02.474] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-15 21:07:02.891] [exthost] [error] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 't'
+    |     property '_readableState' -> object with constructor 'C'
+    |     property 'pipes' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 't.ConsoleForElectron'
+    --- property 'parent' closes the circle
+    at JSON.stringify (<anonymous>)
+    at /home/bill/.vscode/extensions/vscodevim.vim-1.21.10/src/register/register.ts:357:16
+    at runMicrotasks (<anonymous>)
+    at process.async (internal/process/task_queues.js:93:5)
+    at Object.e.deactivate (/home/bill/.vscode/extensions/vscodevim.vim-1.21.10/extension.ts:36:8)
+    at async Promise.all (index 16)
+    at w.deactivateAll (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:10023)
+[2021-12-15 21:07:03.515] [exthost] [info] Extension host with pid 11889 exiting with code 0

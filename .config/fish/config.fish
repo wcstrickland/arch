@@ -13,7 +13,9 @@ alias fishtank='asciiquarium'
 alias glo='git log --oneline'
 alias gs='onefetch;git status'
 alias wifis='nmcli device wifi'
+alias grip='grip -b'
 alias hibernate='systemctl hibernate'
+alias tree='exa --git-ignore --tree'
 function vima
     vim $argv ./*
 end

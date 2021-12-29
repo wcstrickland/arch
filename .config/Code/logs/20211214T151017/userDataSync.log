@@ -1,0 +1,169 @@
+[2021-12-14 15:10:19.575] [settingssync] [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+[2021-12-14 15:10:19.575] [settingssync] [info] Auto Sync is enabled.
+[2021-12-14 15:10:19.575] [settingssync] [info] Auto Sync: Suspended until auth token is available.
+[2021-12-14 15:10:22.347] [settingssync] [info] Auto Sync: Started
+[2021-12-14 15:10:22.347] [settingssync] [info] Auto Sync: Triggered by Interval
+[2021-12-14 15:10:23.198] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-12-14 15:10:23.265] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-12-14 15:10:23.302] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-12-14 15:10:23.354] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-12-14 15:10:23.600] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-12-14 15:10:23.602] [settingssync] [info] Sync done. Took 535ms
+[2021-12-14 15:10:23.629] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-12-14 15:10:23.812] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-12-14 15:10:23.820] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-12-14 15:10:23.822] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-12-14 15:10:23.867] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-12-14 15:10:24.004] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-12-14 15:10:24.005] [settingssync] [info] Sync done. Took 275ms
+[2021-12-14 15:10:46.363] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-12-14 15:10:46.620] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-12-14 15:10:46.623] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-12-14 15:10:46.626] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-12-14 15:10:46.995] [settingssync] [info] GlobalState: Updated remote ui state
+[2021-12-14 15:10:47.010] [settingssync] [info] GlobalState: Updated last synchronized ui state
+[2021-12-14 15:10:47.107] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-12-14 15:10:47.108] [settingssync] [info] Sync done. Took 627ms
+[2021-12-14 15:10:47.738] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-12-14 15:10:47.919] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-12-14 15:10:47.923] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-12-14 15:10:47.927] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-12-14 15:10:47.948] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-12-14 15:10:48.027] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-12-14 15:10:48.027] [settingssync] [info] Sync done. Took 171ms
+[2021-12-14 15:11:06.391] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-12-14 15:11:06.791] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-12-14 15:11:06.797] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-12-14 15:11:06.802] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-12-14 15:11:06.836] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-12-14 15:11:06.917] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-12-14 15:11:06.920] [settingssync] [info] Sync done. Took 201ms
+[2021-12-14 15:12:46.580] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-12-14 15:12:46.844] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-12-14 15:12:46.846] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-12-14 15:12:46.850] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-12-14 15:12:46.879] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-12-14 15:12:47.004] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-12-14 15:12:47.006] [settingssync] [info] Sync done. Took 302ms
+[2021-12-14 15:12:58.524] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-12-14 15:12:58.826] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-12-14 15:12:58.830] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-12-14 15:12:58.836] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-12-14 15:12:58.867] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-12-14 15:12:58.981] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-12-14 15:12:58.983] [settingssync] [info] Sync done. Took 260ms
+[2021-12-14 15:13:43.830] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-12-14 15:13:43.870] [settingssync] [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+[2021-12-14 15:13:43.875] [settingssync] [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at p.request (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:174320)
+    at async p.manifest (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:172045)
+    at async u.createSyncTask (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:142912)
+    at async a.doSync (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:137299)
+[2021-12-14 15:13:43.886] [settingssync] [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at p.request (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:174320)
+    at async p.manifest (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:172045)
+    at async u.createSyncTask (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:142912)
+    at async a.doSync (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:137299)
+[2021-12-14 15:15:01.082] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-12-14 15:15:13.449] [settingssync] [info] Settings: Updated remote settings
+[2021-12-14 15:15:13.463] [settingssync] [info] Settings: Updated last synchronized settings
+[2021-12-14 15:15:13.467] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-12-14 15:15:13.471] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-12-14 15:15:13.513] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-12-14 15:15:13.630] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-12-14 15:15:13.637] [settingssync] [info] Sync done. Took 2165ms
+[2021-12-14 15:15:19.721] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-12-14 15:15:19.741] [settingssync] [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+[2021-12-14 15:15:19.742] [settingssync] [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at p.request (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:174320)
+    at async p.manifest (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:172045)
+    at async u.createSyncTask (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:142912)
+    at async a.doSync (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:137299)
+[2021-12-14 15:15:19.743] [settingssync] [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at p.request (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:174320)
+    at async p.manifest (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:172045)
+    at async u.createSyncTask (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:142912)
+    at async a.doSync (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:137299)
+[2021-12-14 15:16:14.315] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-12-14 15:16:16.203] [settingssync] [info] Settings: Updated remote settings
+[2021-12-14 15:16:16.223] [settingssync] [info] Settings: Updated last synchronized settings
+[2021-12-14 15:16:16.234] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-12-14 15:16:16.250] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-12-14 15:16:16.347] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-12-14 15:16:16.458] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-12-14 15:16:16.459] [settingssync] [info] Sync done. Took 1826ms
+[2021-12-14 15:16:28.219] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-12-14 15:16:28.518] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-12-14 15:16:28.521] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-12-14 15:16:28.523] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-12-14 15:16:28.545] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-12-14 15:16:28.632] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-12-14 15:16:28.633] [settingssync] [info] Sync done. Took 255ms
+[2021-12-14 15:17:34.946] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-12-14 15:17:35.563] [settingssync] [info] Settings: Updated remote settings
+[2021-12-14 15:17:35.584] [settingssync] [info] Settings: Updated last synchronized settings
+[2021-12-14 15:17:35.597] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-12-14 15:17:35.612] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-12-14 15:17:35.697] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-12-14 15:17:35.808] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-12-14 15:17:35.809] [settingssync] [info] Sync done. Took 713ms
+[2021-12-14 15:17:48.144] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-12-14 15:17:48.167] [settingssync] [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+[2021-12-14 15:17:48.169] [settingssync] [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at p.request (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:174320)
+    at async p.manifest (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:172045)
+    at async u.createSyncTask (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:142912)
+    at async a.doSync (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:137299)
+[2021-12-14 15:17:48.170] [settingssync] [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at p.request (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:174320)
+    at async p.manifest (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:172045)
+    at async u.createSyncTask (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:142912)
+    at async a.doSync (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:137299)
+[2021-12-14 15:18:06.327] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-12-14 15:18:06.335] [settingssync] [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+[2021-12-14 15:18:06.335] [settingssync] [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at p.request (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:174320)
+    at async p.manifest (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:172045)
+    at async u.createSyncTask (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:142912)
+    at async a.doSync (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:137299)
+[2021-12-14 15:18:06.336] [settingssync] [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at p.request (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:174320)
+    at async p.manifest (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:172045)
+    at async u.createSyncTask (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:142912)
+    at async a.doSync (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:76:137299)
+[2021-12-14 15:19:25.071] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-12-14 15:19:26.554] [settingssync] [info] Settings: Updated remote settings
+[2021-12-14 15:19:26.566] [settingssync] [info] Settings: Updated last synchronized settings
+[2021-12-14 15:19:26.568] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-12-14 15:19:26.572] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-12-14 15:19:26.597] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-12-14 15:19:26.685] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-12-14 15:19:26.686] [settingssync] [info] Sync done. Took 1109ms
+[2021-12-14 15:19:39.019] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-12-14 15:19:39.287] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-12-14 15:19:39.289] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-12-14 15:19:39.291] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-12-14 15:19:39.316] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-12-14 15:19:39.410] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-12-14 15:19:39.417] [settingssync] [info] Sync done. Took 271ms
+[2021-12-14 15:20:03.134] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-12-14 15:20:28.878] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-12-14 15:20:28.880] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-12-14 15:20:28.883] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-12-14 15:20:28.907] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-12-14 15:20:28.999] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-12-14 15:20:29.005] [settingssync] [info] Sync done. Took 159ms
+[2021-12-14 15:21:29.455] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-12-14 15:21:30.522] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-12-14 15:21:30.526] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-12-14 15:21:30.532] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-12-14 15:21:30.570] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-12-14 15:21:30.661] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-12-14 15:21:30.663] [settingssync] [info] Sync done. Took 219ms
+[2021-12-14 15:22:01.096] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-12-14 15:22:01.475] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-12-14 15:22:01.483] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-12-14 15:22:01.490] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-12-14 15:22:01.522] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-12-14 15:22:01.611] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-12-14 15:22:01.613] [settingssync] [info] Sync done. Took 249ms

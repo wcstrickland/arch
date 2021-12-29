@@ -1,0 +1,16 @@
+Info 2021-12-14 13:31:08: Experimentation service retrieved: [object Object]
+User belongs to experiment group 'jupyterTest'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+Info 2021-12-14 13:31:08: ZMQ install verified.
+Info 2021-12-14 13:31:08: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}
+Info 2021-12-14 13:31:08: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+Info 2021-12-14 13:31:08: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+Info 2021-12-14 13:31:16: Shutting down notebooks for f9de6fc3-6114-41e0-8f53-b4817de968b5
+Info 2021-12-14 13:31:16: Disposing HostJupyterExecution 276ff40b-0e04-46a4-bfb2-66750bf0e4ec
+Info 2021-12-14 13:31:16: Disposing super HostJupyterExecution 276ff40b-0e04-46a4-bfb2-66750bf0e4ec
+Info 2021-12-14 13:31:16: Disposing HostJupyterExecution 276ff40b-0e04-46a4-bfb2-66750bf0e4ec
+Info 2021-12-14 13:31:16: Finished disposing HostJupyterExecution  276ff40b-0e04-46a4-bfb2-66750bf0e4ec
+Info 2021-12-14 13:31:16: Cleaning up server cache 276ff40b-0e04-46a4-bfb2-66750bf0e4ec
+Info 2021-12-14 13:31:16: Finished disposing HostJupyterExecution  276ff40b-0e04-46a4-bfb2-66750bf0e4ec

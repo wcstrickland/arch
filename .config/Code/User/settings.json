@@ -1,10 +1,6 @@
 {
   "workbench.iconTheme": "material-icon-theme",
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-  "vim.incsearch": true,
-  "vim.useSystemClipboard": true,
-  "vim.useCtrlKeys": true,
-  "vim.hlsearch": true,
+  "vim.leader": "<space>",
   "vim.insertModeKeyBindings": [
     {
       "before": [
@@ -12,28 +8,245 @@
         "j"
       ],
       "after": [
-        "<Esc>"
+        "<Esc>",
       ]
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": [
-        "<C-n>"
+        "H"
       ],
       "after": [
-        ":/\\<<C-r><C-w>\\><CR>"
+        "g",
+        "T"
       ]
     },
     {
       "before": [
-        "mm"
+        "J"
       ],
       "after": [
-        ":silent! nohs<CR>"
+        "g",
+        "t"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "h"
+      ],
+      "after": [
+        "<C-w>",
+        "h"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "l"
+      ],
+      "after": [
+        "<C-w>",
+        "l"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "q"
+      ],
+      "after": [
+        "Z",
+        "Q"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "w"
+      ],
+      "after": [
+        ":w"
+      ]
+    },
+    {
+      "before": [
+        "-"
+      ],
+      "after": [
+        "_"
+      ]
+    },
+    {
+      "before": [
+        "+"
+      ],
+      "after": [
+        "$"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "("
+      ],
+      "after": [
+        "d",
+        "i",
+        "w",
+        "i",
+        "(",
+        ")",
+        "<esc>",
+        "P"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "["
+      ],
+      "after": [
+        "d",
+        "i",
+        "w",
+        "i",
+        "[",
+        "]",
+        "<esc>",
+        "P"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "{"
+      ],
+      "after": [
+        "d",
+        "i",
+        "w",
+        "i",
+        "{",
+        "}",
+        "<esc>",
+        "P"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "'"
+      ],
+      "after": [
+        "d",
+        "i",
+        "w",
+        "i",
+        "'",
+        "'",
+        "<esc>",
+        "P"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "\""
+      ],
+      "after": [
+        "d",
+        "i",
+        "w",
+        "i",
+        "\"",
+        "\"",
+        "<esc>",
+        "P"
+      ]
+    },
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "("
+      ],
+      "after": [
+        "d",
+        "i",
+        "(",
+        ")",
+        "<esc>",
+        "P"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "["
+      ],
+      "after": [
+        "d",
+        "i",
+        "[",
+        "]",
+        "<esc>",
+        "P"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "{"
+      ],
+      "after": [
+        "d",
+        "i",
+        "{",
+        "}",
+        "<esc>",
+        "P"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "'"
+      ],
+      "after": [
+        "d",
+        "i",
+        "'",
+        "'",
+        "<esc>",
+        "P"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "\""
+      ],
+      "after": [
+        "d",
+        "i",
+        "\"",
+        "\"",
+        "<esc>",
+        "P"
       ]
     }
   ],
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
   "editor.formatOnSave": true,
   "prettier.typescriptEnable": [
     "typescript",
@@ -43,9 +256,6 @@
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "editor.minimap.enabled": false,
-  "vim.handleKeys": {
-    "<C-d>": true
-  },
   "workbench.startupEditor": "newUntitledFile",
   "workbench.colorTheme": "One Dark Pro",
   "security.workspace.trust.untrustedFiles": "open",
@@ -54,5 +264,15 @@
     "*.html": "html"
   },
   "explorer.confirmDelete": false,
-  "liveServer.settings.donotShowInfoMsg": true
+  "liveServer.settings.donotShowInfoMsg": true,
+  "go.toolsManagement.autoUpdate": true,
+  "redhat.telemetry.enabled": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }

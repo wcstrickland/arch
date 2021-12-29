@@ -1,0 +1,19 @@
+Experiment 'pythonaa' is active
+Experiment 'pythonTensorboardExperiment' is active
+Experiment 'PythonPyTorchProfiler' is active
+Experiment 'pythonDeprecatePythonPath' is active
+> conda info --json
+> ~/.local/share/virtualenvs/py-Zi26rk8O/bin/python ~/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/interpreterInfo.py
+> /bin/python ~/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/interpreterInfo.py
+> /sbin/python ~/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/interpreterInfo.py
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/interpreterInfo.py
+> /usr/sbin/python ~/.vscode/extensions/ms-python.python-2021.12.1559732655/pythonFiles/interpreterInfo.py
+Python interpreter path: /bin/python
+Starting Pylance language server.
+> conda --version
+> /bin/python -m autopep8 --diff ~/prog/py/is_palindrome.py.e4d1565b393a0d1df5fe63f4a399d34e.tmp
+cwd: ~/prog/py
+> /bin/python -m autopep8 --diff ~/prog/py/is_palindrome.py.e4d1565b393a0d1df5fe63f4a399d34e.tmp
+cwd: ~/prog/py
+> /bin/python -m autopep8 --diff ~/prog/py/is_palindrome.py.e4d1565b393a0d1df5fe63f4a399d34e.tmp
+cwd: ~/prog/py

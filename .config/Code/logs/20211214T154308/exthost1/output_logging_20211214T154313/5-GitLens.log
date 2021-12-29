@@ -1,0 +1,6 @@
+[2021-12-14 21:43:13:330] [/home/bill/prog/ts] Git Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 158 ms 
+[2021-12-14 21:43:13:796] [/home/bill/prog/ts] Git Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 127 ms 
+[2021-12-14 21:43:42:358] [/home/bill/prog/ts/output] Git Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 18 ms 
+[2021-12-14 21:45:27:084] [/home/bill/prog/ts] Git Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 9 ms 
+[2021-12-14 21:45:36:133] [/home/bill/prog/ts] Git Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 9 ms 
+[2021-12-14 21:45:41:641] [/home/bill/prog/ts] Git Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 9 ms 
