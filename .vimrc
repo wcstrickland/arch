@@ -1,7 +1,7 @@
 "headers"
 set nocompatible
-filetype plugin on
-packloadall
+filetype plugin indent on
+setlocal omnifunc=syntaxcomplete#Complete
 "file explorer"
 let g:netrw_banner=0  "no banner"
 let g:netrw_altv=1  "split right"
@@ -36,7 +36,6 @@ set showcmd "show leader key during timeout period"
 set ignorecase
 set autoindent
 set noerrorbells
-set autochdir
 set novisualbell
 "set clipboard^=unamed"
 set clipboard=unnamedplus "allows pasting from OS clipboard"
@@ -64,7 +63,10 @@ nnoremap j gj
 nnoremap k gk
 nnoremap <expr> h (col('.') == 1) ? 'za' : 'h'
 "autocomplete"
-set completeopt=longest,menuone
+"keep autocomplete up sub <C-N> for <C-O> for less problems"
+au CursorMovedI * if pumvisible()==0 | silent call  feedkeys("\<C-X>\<C-O>", 'n')
+set complete+=k
+set completeopt=longest,noinsert,noselect,menuone
 inoremap kk <C-n>
 "filepath complete"
 inoremap ;; <C-x><C-f>
@@ -135,6 +137,7 @@ nnoremap R :%s/\<<c-r>=expand("<cword>")<cr>\>//gc<left><left><left>
 "close and open"
 nnoremap <leader>q :bd<cr>
 nnoremap <leader>w :w<CR>
+nnoremap <leader>! :w !sudo tee %<CR>
 nnoremap zq ZQ
 "surround"
 vnoremap <leader>( di()<esc>P
@@ -165,10 +168,10 @@ vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
 "dont select next on search under cursor"
 nnoremap * *N
-"register good stuff"
+"show registers and prompt for put"
 nnoremap <leader>p :reg<cr>:put
 "search list for word under cursor"
-nnoremap <leader>* [I
+nnoremap <leader>* [I :
 "search list"
 nnoremap <leader>/ :g/
 "trim all trailing whitespace"
