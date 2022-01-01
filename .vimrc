@@ -39,13 +39,10 @@ set noerrorbells
 set novisualbell
 "set clipboard^=unamed"
 set clipboard=unnamedplus "allows pasting from OS clipboard"
-"open a new split and read the current buffer into it"
-nnoremap <leader>y :vnew<cr>:0read #<cr>:close<cr>
-"if not in diffmode diff the splits. if in diff mode exit diff "
-nnoremap <expr> <leader>d &diff ? ':diffoff<cr>' : ':diffthis<cr><c-w>w:diffthis<cr>'
 "simple statusline"
+set ruler
 set statusline=
-set statusline+=\%#ModeMsg#%.20F%m%y[%#SpecialKey#%l%#Question#\|%#LineNr#%L%#ModeMsg#]%#CursorLine#
+set statusline+=\%#ModeMsg#%.20F\ %#Title#%m\ %#NonText#%y\ %#Question#[%c]\ %#LineNr#[%l\|%L]%#CursorLine#
 "create and load views"
 autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview
@@ -62,14 +59,6 @@ nnoremap G Gzz
 nnoremap j gj
 nnoremap k gk
 nnoremap <expr> h (col('.') == 1) ? 'za' : 'h'
-"autocomplete"
-"keep autocomplete up sub <C-N> for <C-O> for less problems"
-au CursorMovedI * if pumvisible()==0 | silent call  feedkeys("\<C-X>\<C-O>", 'n')
-set complete+=k
-set completeopt=longest,noinsert,noselect,menuone
-inoremap kk <C-n>
-"filepath complete"
-inoremap ;; <C-x><C-f>
 "SHORTCUTS"
 "for loop"
 inoremap <leader>for for(let i = 0; i<; i++){<CR>console.log();<CR>}<esc>k>>kf<a
@@ -108,6 +97,43 @@ inoremap "" <esc>ls"
 inoremap ' ''<esc>i
 inoremap '' <esc>ls'
 let mapleader = " "
+"autocomplete"
+"keep autocomplete up sub <C-N> for <C-O> for less problems"
+function! ToggleComplete()
+    if !exists('#ToggleComplete#CursorMovedI')
+        augroup ToggleComplete
+            autocmd!
+            autocmd CursorMovedI * if pumvisible()==0 | silent call  feedkeys("\<C-X>\<C-N>", 'n')
+        augroup END
+    else 
+        augroup ToggleComplete
+            autocmd! 
+        augroup END 
+    endif 
+endfunction
+function! ToggleOmni()
+    if !exists('#ToggleOmni#CursorMovedI')
+        augroup ToggleOmni
+            autocmd!
+            autocmd CursorMovedI * if pumvisible()==0 | silent call  feedkeys("\<C-X>\<C-O>", 'n')
+        augroup END
+    else 
+        augroup ToggleOmni
+            autocmd! 
+        augroup END 
+    endif 
+endfunction
+nnoremap <leader>a :call ToggleComplete()<CR>
+nnoremap <leader>o :call ToggleOmni()<CR>
+set complete-=i
+set completeopt=menuone,noselect,noinsert
+inoremap kk <C-n>
+"filepath complete"
+inoremap ;; <C-x><C-f>
+"open a new split and read the current buffer into it"
+nnoremap <leader>y :vnew<cr>:0read #<cr>:close<cr>
+"if not in diffmode diff the splits. if in diff mode exit diff "
+nnoremap <expr> <leader>d &diff ? ':diffoff<cr>' : ':diffthis<cr><c-w>w:diffthis<cr>'
 "projects set .viminfo at project level"
 function! SetProject()
     let path = expand('%:p')
