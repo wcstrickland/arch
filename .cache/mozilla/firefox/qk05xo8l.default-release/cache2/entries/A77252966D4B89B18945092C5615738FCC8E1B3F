@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+	
+		<title>| Picom opacity, but it should only affect background of window, not contents. - r/unixporn</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="description" content="View on Libreddit, an alternative private front-end to Reddit.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- General PWA -->
+		<meta name="theme-color" content="#1F1F1F">
+		<!-- iOS Application -->
+		<meta name="apple-mobile-web-app-title" content="Libreddit">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="default">
+		<!-- Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<!-- iOS Logo -->
+		<link href="/touch-icon-iphone.png" rel="apple-touch-icon">
+		<!-- PWA Manifest -->
+		<link rel="manifest" type="application/json" href="/manifest.json">
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="/style.css">
+		
+	<!-- Meta Tags -->
+	<meta name="author" content="u/[deleted]">
+	<meta name="title" content="| Picom opacity, but it should only affect background of window, not contents. - r/unixporn">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="/r/unixporn/comments/nmyk5k/picom_opacity_but_it_should_only_affect/">
+	<meta property="og:title" content="| Picom opacity, but it should only affect background of window, not contents. - r/unixporn">
+	<meta property="og:description" content="View on Libreddit, an alternative private front-end to Reddit.">
+	<meta property="og:image" content="">
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="/r/unixporn/comments/nmyk5k/picom_opacity_but_it_should_only_affect/">
+	<meta property="twitter:title" content="| Picom opacity, but it should only affect background of window, not contents. - r/unixporn">
+	<meta property="twitter:description" content="View on Libreddit, an alternative private front-end to Reddit.">
+	<meta property="twitter:image" content="">
+
+		</head>
+	<body class="
+		
+		
+		 ">
+		<!-- NAVIGATION BAR -->
+		<nav>
+			<div id="logo">
+				<a id="libreddit" href="/"><span id="lib">lib</span><span id="reddit">reddit.</span></a>
+				<span id="version">v0.21.7</span>
+				
+	
+
+			</div>
+			
+	<form action="/r/unixporn/search" id="searchbox">
+	<input id="search" type="text" name="q" placeholder="Search" title="Search libreddit" value="">
+	
+	<div id="inside">
+		<input type="checkbox" name="restrict_sr" id="restrict_sr" checked>
+		<label for="restrict_sr" class="search_label" title="Restrict search to this subreddit">in /r/unixporn</label>
+	</div>
+	
+	<button class="submit">
+		<svg width="15" viewBox="0 0 110 100" fill="none" stroke-width="10" stroke-linecap="round">
+			<path d="M20 50 H100" />
+			<path d="M75 15 L100 50 L75 85" />
+			&rarr;
+		</svg>
+	</button>
+</form>
+
+			<div id="links">
+				<a id="reddit_link" href="https://www.reddit.com/r/unixporn/comments/nmyk5k/picom_opacity_but_it_should_only_affect/" rel="nofollow">
+					<span>reddit</span>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+						<path d="M23 12.0737C23 10.7308 21.9222 9.64226 20.5926 9.64226C19.9435 9.64226 19.3557 9.90274 18.923 10.3244C17.2772 9.12492 15.0099 8.35046 12.4849 8.26135L13.5814 3.05002L17.1643 3.8195C17.2081 4.73947 17.9539 5.47368 18.8757 5.47368C19.8254 5.47368 20.5951 4.69626 20.5951 3.73684C20.5951 2.77769 19.8254 2 18.8758 2C18.2001 2 17.6214 2.39712 17.3404 2.96952L13.3393 2.11066C13.2279 2.08679 13.1116 2.10858 13.016 2.17125C12.9204 2.23393 12.8533 2.33235 12.8295 2.44491L11.6051 8.25987C9.04278 8.33175 6.73904 9.10729 5.07224 10.3201C4.63988 9.90099 4.05398 9.64226 3.40757 9.64226C2.0781 9.64226 1 10.7308 1 12.0737C1 13.0618 1.58457 13.9105 2.4225 14.2909C2.38466 14.5342 2.36545 14.78 2.36505 15.0263C2.36505 18.7673 6.67626 21.8 11.9945 21.8C17.3131 21.8 21.6243 18.7673 21.6243 15.0263C21.6243 14.7794 21.6043 14.5359 21.5678 14.2957C22.4109 13.9175 23 13.0657 23 12.0737Z"/>
+					</svg>
+				</a>
+				<a id="settings_link" href="/settings">
+					<span>settings</span>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+						<title>settings</title>
+						<circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+					</svg>
+				</a>
+				<a id="code" href="https://github.com/spikecodes/libreddit">
+					<span>code</span>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+						<title>code</title>
+						<polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
+					</svg>
+				</a>
+			</div>
+		</nav>
+		
+		<!-- MAIN CONTENT -->
+		
+		<main>
+			
+	<div id="column_one">
+
+		<!-- POST CONTENT -->
+		<div class="post highlighted">
+			<p class="post_header">
+				<a class="post_subreddit" href="/r/unixporn">r/unixporn</a>
+				<span class="dot">&bull;</span>
+				<a class="post_author " href="/user/[deleted]">u/[deleted]</a>
+				
+				<span class="dot">&bull;</span>
+				<span class="created" title="May 28 2021, 14:04:53 UTC">May 28 '21</span>
+				
+			</p>
+			<p class="post_title">
+				| Picom opacity, but it should only affect background of window, not contents.
+				
+					<a href="/r/unixporn/search?q=flair_name%3A%22Discussion%22&restrict_sr=on"
+						class="post_flair"
+						style="color:white; background:#5b92fa;"><span>Discussion</span></a>
+				
+				
+			</p>
+
+			<!-- POST MEDIA -->
+			<!-- post_type: self -->
+			
+
+			<!-- POST BODY -->
+			<div class="post_body"><!-- SC_OFF --><div class="md"><p>[deleted]</p>
+</div><!-- SC_ON --></div>
+			<div class="post_score" title="5">5<span class="label"> Upvotes</span></div>
+			<div class="post_footer">
+				<ul id="post_links">
+					<li><a href="/nmyk5k">permalink</a></li>
+					<li><a href="https://reddit.com/nmyk5k" rel="nofollow">reddit</a></li>
+				</ul>
+				<p>78% Upvoted</p>
+			</div>
+		</div>
+
+		<!-- SORT FORM -->
+		<form id="sort">
+			<select name="sort" title="Sort comments by"> 
+				
+		<option value="confidence" selected>
+			Confidence
+		</option>
+	
+		<option value="top" >
+			Top
+		</option>
+	
+		<option value="new" >
+			New
+		</option>
+	
+		<option value="controversial" >
+			Controversial
+		</option>
+	
+		<option value="old" >
+			Old
+		</option>
+	
+			</select><button id="sort_submit" class="submit">
+				<svg width="15" viewBox="0 0 110 100" fill="none" stroke-width="10" stroke-linecap="round">
+					<path d="M20 50 H100" />
+					<path d="M75 15 L100 50 L75 85" />
+					&rarr;
+				</svg>
+			</button>
+		</form>
+
+		<!-- COMMENTS -->
+		<div class="thread">
+			
+			
+			
+
+
+<div id="gzrg9k1" class="comment">
+	<div class="comment_left">
+		<p class="comment_score" title="2">2</p>
+		<div class="line"></div>
+	</div>
+	<details class="comment_right" open>
+		<summary class="comment_data">
+			
+				<a class="comment_author  " href="/user/jizcu">u/jizcu</a>
+			
+			
+				<small class="author_flair"><span class="emoji" style="background-image:url('/emoji/o81mrgvs8r711_t5_2sx2i/Arch');"></span><span> </span><span class="emoji" style="background-image:url('/emoji/eymeyn40ky711_t5_2sx2i/Raspbian');"></span></small>
+			
+			<a href="/r/unixporn/comments/nmyk5k/picom_opacity_but_it_should_only_affect/gzrg9k1/?context=3" class="created" title="May 28 2021, 14:25:53 UTC">May 28 '21</a>
+			
+			
+		</summary>
+		
+		<div class="comment_body "><div class="md"><p>I had this issue, you have to adjust the transparency in the preferences of the terminal emulator itself, not picom :)</p>
+</div></div>
+		
+		<blockquote class="replies">
+
+
+<div id="gzscz17" class="comment">
+	<div class="comment_left">
+		<p class="comment_score" title="2">2</p>
+		<div class="line"></div>
+	</div>
+	<details class="comment_right" open>
+		<summary class="comment_data">
+			
+				<span class="comment_author ">u/[deleted]</span>
+			
+			
+			<a href="/r/unixporn/comments/nmyk5k/picom_opacity_but_it_should_only_affect/gzscz17/?context=3" class="created" title="May 28 2021, 18:23:00 UTC">May 28 '21</a>
+			
+			
+		</summary>
+		
+		<div class="comment_body "><div class="md"><p>[deleted]</p>
+</div></div>
+		
+		<blockquote class="replies">
+
+
+<div id="gzse00a" class="comment">
+	<div class="comment_left">
+		<p class="comment_score" title="5">5</p>
+		<div class="line"></div>
+	</div>
+	<details class="comment_right" open>
+		<summary class="comment_data">
+			
+				<a class="comment_author  " href="/user/SilentFungus">u/SilentFungus</a>
+			
+			
+			<a href="/r/unixporn/comments/nmyk5k/picom_opacity_but_it_should_only_affect/gzse00a/?context=3" class="created" title="May 28 2021, 18:30:41 UTC">May 28 '21</a>
+			
+			
+		</summary>
+		
+		<div class="comment_body "><div class="md"><p>Picom has no way of knowing what is &quot;background&quot; and what is text, so no</p>
+</div></div>
+		
+		<blockquote class="replies">
+		</blockquote>
+	</details>
+</div>
+
+		</blockquote>
+	</details>
+</div>
+
+
+
+<div id="gzumjtg" class="comment">
+	<div class="comment_left">
+		<p class="comment_score" title="0">0</p>
+		<div class="line"></div>
+	</div>
+	<details class="comment_right" open>
+		<summary class="comment_data">
+			
+				<a class="comment_author  " href="/user/HeavyRain266">u/HeavyRain266</a>
+			
+			
+			<a href="/r/unixporn/comments/nmyk5k/picom_opacity_but_it_should_only_affect/gzumjtg/?context=3" class="created" title="May 29 2021, 07:28:23 UTC">May 29 '21</a>
+			
+			
+		</summary>
+		
+		<div class="comment_body "><div class="md"><p>It&#39;s not an issue... thats how transparency works in general...</p>
+</div></div>
+		
+		<blockquote class="replies">
+
+
+<div id="gzvy02h" class="comment">
+	<div class="comment_left">
+		<p class="comment_score" title="2">2</p>
+		<div class="line"></div>
+	</div>
+	<details class="comment_right" open>
+		<summary class="comment_data">
+			
+				<a class="comment_author  " href="/user/jizcu">u/jizcu</a>
+			
+			
+				<small class="author_flair"><span class="emoji" style="background-image:url('/emoji/o81mrgvs8r711_t5_2sx2i/Arch');"></span><span> </span><span class="emoji" style="background-image:url('/emoji/eymeyn40ky711_t5_2sx2i/Raspbian');"></span></small>
+			
+			<a href="/r/unixporn/comments/nmyk5k/picom_opacity_but_it_should_only_affect/gzvy02h/?context=3" class="created" title="May 29 2021, 16:56:36 UTC">May 29 '21</a>
+			
+			
+		</summary>
+		
+		<div class="comment_body "><div class="md"><p>“Issue” in my comment does not mean “bug”, it refers to the fact that OP isn’t getting their desired results.</p>
+</div></div>
+		
+		<blockquote class="replies">
+		</blockquote>
+	</details>
+</div>
+
+		</blockquote>
+	</details>
+</div>
+
+		</blockquote>
+	</details>
+</div>
+
+		</div><div class="thread">
+			
+			
+			
+
+
+<div id="h0ycjmh" class="comment">
+	<div class="comment_left">
+		<p class="comment_score" title="2">2</p>
+		<div class="line"></div>
+	</div>
+	<details class="comment_right" open>
+		<summary class="comment_data">
+			
+				<a class="comment_author  " href="/user/Morphized">u/Morphized</a>
+			
+			
+			<a href="/r/unixporn/comments/nmyk5k/picom_opacity_but_it_should_only_affect/h0ycjmh/?context=3" class="created" title="Jun 07 2021, 20:49:19 UTC">Jun 07 '21</a>
+			
+			
+		</summary>
+		
+		<div class="comment_body "><div class="md"><p>It does that already by default. Just set opacity to 100.</p>
+</div></div>
+		
+		<blockquote class="replies">
+		</blockquote>
+	</details>
+</div>
+
+		</div><div class="thread">
+			
+			
+			
+
+
+<div id="gzumqyg" class="comment">
+	<div class="comment_left">
+		<p class="comment_score" title="2">2</p>
+		<div class="line"></div>
+	</div>
+	<details class="comment_right" open>
+		<summary class="comment_data">
+			
+				<a class="comment_author  " href="/user/HeavyRain266">u/HeavyRain266</a>
+			
+			
+			<a href="/r/unixporn/comments/nmyk5k/picom_opacity_but_it_should_only_affect/gzumqyg/?context=3" class="created" title="May 29 2021, 07:31:33 UTC">May 29 '21</a>
+			
+			
+		</summary>
+		
+		<div class="comment_body "><div class="md"><p>You can&#39;t even if app provide own transparency then it&#39;s still managed by picom or different compositor, on X11 every content rendered on screen is just &quot;window&quot;, there is no background part or content part, if you tell compositor to make it transparent then whole window becomes transparent including content and decorations.</p>
+</div></div>
+		
+		<blockquote class="replies">
+
+
+<div id="h0a5ne3" class="comment">
+	<div class="comment_left">
+		<p class="comment_score" title="2">2</p>
+		<div class="line"></div>
+	</div>
+	<details class="comment_right" open>
+		<summary class="comment_data">
+			
+				<a class="comment_author  " href="/user/TellMeHowImWrong">u/TellMeHowImWrong</a>
+			
+			
+			<a href="/r/unixporn/comments/nmyk5k/picom_opacity_but_it_should_only_affect/h0a5ne3/?context=3" class="created" title="Jun 02 2021, 05:23:39 UTC">Jun 02 '21</a>
+			
+			
+		</summary>
+		
+		<div class="comment_body "><div class="md"><p>That’s not true, at least not for Alacritty. I have it so that the background is transparent and text is solid in the Alacritty config and Picom deals with the background blur.</p>
+</div></div>
+		
+		<blockquote class="replies">
+
+
+<div id="h0bebu2" class="comment">
+	<div class="comment_left">
+		<p class="comment_score" title="2">2</p>
+		<div class="line"></div>
+	</div>
+	<details class="comment_right" open>
+		<summary class="comment_data">
+			
+				<a class="comment_author  " href="/user/HeavyRain266">u/HeavyRain266</a>
+			
+			
+			<a href="/r/unixporn/comments/nmyk5k/picom_opacity_but_it_should_only_affect/h0bebu2/?context=3" class="created" title="Jun 02 2021, 14:21:51 UTC">Jun 02 '21</a>
+			
+			
+		</summary>
+		
+		<div class="comment_body "><div class="md"><p>Client side opacity is unrelated, when client doesn&#39;t provide own opacity settings then e.g. terminal text is unreadible.</p>
+</div></div>
+		
+		<blockquote class="replies">
+
+
+<div id="h0creu3" class="comment">
+	<div class="comment_left">
+		<p class="comment_score" title="2">2</p>
+		<div class="line"></div>
+	</div>
+	<details class="comment_right" open>
+		<summary class="comment_data">
+			
+				<a class="comment_author  " href="/user/TellMeHowImWrong">u/TellMeHowImWrong</a>
+			
+			
+			<a href="/r/unixporn/comments/nmyk5k/picom_opacity_but_it_should_only_affect/h0creu3/?context=3" class="created" title="Jun 02 2021, 20:00:51 UTC">Jun 02 '21</a>
+			
+			
+		</summary>
+		
+		<div class="comment_body "><div class="md"><p>I don’t follow. What’s the difference between “app transparency” and “client opacity”? You’re talking about two different things?</p>
+</div></div>
+		
+		<blockquote class="replies">
+
+
+<div id="h0dewf3" class="comment">
+	<div class="comment_left">
+		<p class="comment_score" title="2">2</p>
+		<div class="line"></div>
+	</div>
+	<details class="comment_right" open>
+		<summary class="comment_data">
+			
+				<a class="comment_author  " href="/user/HeavyRain266">u/HeavyRain266</a>
+			
+			
+			<a href="/r/unixporn/comments/nmyk5k/picom_opacity_but_it_should_only_affect/h0dewf3/?context=3" class="created" title="Jun 02 2021, 22:54:12 UTC">Jun 02 '21</a>
+			
+			
+		</summary>
+		
+		<div class="comment_body "><div class="md"><p>Sorry, I mean client as an &quot;app&quot; (because of wayland terminology), I mean just that if your terminal doesn&#39;t support opacity settings and you want to get it transparent directly by picom not terminal&#39;s config file then whole window content is affected including text, if you change opacity in terminal&#39;s config then it&#39;s still managed by picom but text is 100% visible.</p>
+</div></div>
+		
+		<blockquote class="replies">
+		</blockquote>
+	</details>
+</div>
+
+		</blockquote>
+	</details>
+</div>
+
+		</blockquote>
+	</details>
+</div>
+
+		</blockquote>
+	</details>
+</div>
+
+		</blockquote>
+	</details>
+</div>
+
+		</div>
+
+	</div>
+
+		</main>
+		
+	</body>
+</html>n�v?      a�3la�3|C�sa�3{       O^partitionKey=%28https%2Clibredd.it%29,:https://libredd.it/r/unixporn/comments/nmyk5k/picom_opacity_but_it_should_only_affect/ strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 OK
+content-security-policy: default-src 'none'; font-src 'self'; script-src 'self' blob:; manifest-src 'self'; media-src 'self' data: blob: about:; style-src 'self' 'unsafe-inline'; base-uri 'none'; img-src 'self' data:; form-action 'self'; frame-ancestors 'none'; connect-src 'self'; worker-src blob:;
+content-type: text/html
+date: Sat, 15 Jan 2022 02:37:42 GMT
+expect-ct: max-age=2592000, report-uri="https://sentry.repl.it/api/10/security/?sentry_key=615192fd532445bfbbbe966cd7131791"
+referrer-policy: no-referrer
+replit-cluster: global
+strict-transport-security: max-age=63115200
+x-content-type-options: nosniff
+x-frame-options: DENY
+content-length: 16847
+X-Firefox-Spdy: h2
+ original-response-headers content-security-policy: default-src 'none'; font-src 'self'; script-src 'self' blob:; manifest-src 'self'; media-src 'self' data: blob: about:; style-src 'self' 'unsafe-inline'; base-uri 'none'; img-src 'self' data:; form-action 'self'; frame-ancestors 'none'; connect-src 'self'; worker-src blob:;
+content-type: text/html
+date: Sat, 15 Jan 2022 02:37:42 GMT
+expect-ct: max-age=2592000, report-uri="https://sentry.repl.it/api/10/security/?sentry_key=615192fd532445bfbbbe966cd7131791"
+referrer-policy: no-referrer
+replit-cluster: global
+strict-transport-security: max-age=63115200
+x-content-type-options: nosniff
+x-frame-options: DENY
+content-length: 16847
+X-Firefox-Spdy: h2
+ ctid 1 uncompressed-len 0 net-response-time-onstart 15028 net-response-time-onstop 15552   A�

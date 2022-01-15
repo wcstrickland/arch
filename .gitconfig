@@ -1,0 +1,7 @@
+[user]
+    name = bill
+    email = wcstrickland1@gmail.com
+[diff]
+    tool = vimdiff
+[difftool]
+    prompt = false

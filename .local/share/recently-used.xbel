@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/bill/Downloads/6443.jpg" added="2022-01-04T03:58:26.992663Z" modified="2022-01-04T03:58:26.992672Z" visited="2022-01-04T03:58:26.992664Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-04T03:58:26.992668Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/Downloads/lou-batier-5EoWFa_Htdo-unsplash.jpg" added="2022-01-04T18:00:23.874674Z" modified="2022-01-04T18:00:23.874682Z" visited="2022-01-04T18:00:23.874675Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-04T18:00:23.874678Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/Pictures/dark.webp" added="2022-01-04T18:06:27.129102Z" modified="2022-01-04T18:06:27.493759Z" visited="2022-01-04T18:06:27.129105Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/webp"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-04T18:06:27.493750Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/Downloads/sales-force-sftp.zip" added="2022-01-05T02:35:57.411925Z" modified="2022-01-05T02:35:57.411934Z" visited="2022-01-05T02:35:57.411925Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-05T02:35:57.411930Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/Downloads/DGDR%20Manifest%20BLank%2010211.pdf" added="2022-01-05T20:16:08.450903Z" modified="2022-01-05T20:16:08.450911Z" visited="2022-01-05T20:16:08.450904Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-05T20:16:08.450908Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/Downloads/DGDR%20Manifest%20BLank%201021.pdf" added="2022-01-05T20:16:10.156753Z" modified="2022-01-05T20:16:10.156798Z" visited="2022-01-05T20:16:10.156759Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-05T20:16:10.156770Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/Downloads/DGDR%20Manifest%20BLank%2010212.pdf" added="2022-01-05T20:16:11.459958Z" modified="2022-01-05T20:16:11.459992Z" visited="2022-01-05T20:16:11.459961Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-05T20:16:11.459976Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/Downloads/DGDR%20Manifest%20BLank%2010213.pdf" added="2022-01-05T20:16:12.520881Z" modified="2022-01-05T20:16:12.520899Z" visited="2022-01-05T20:16:12.520884Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-05T20:16:12.520890Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/Downloads/DGDR%20Manifest%20BLank%2010214.pdf" added="2022-01-05T20:16:13.660436Z" modified="2022-01-05T20:16:13.660445Z" visited="2022-01-05T20:16:13.660437Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-05T20:16:13.660442Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/Downloads/DGDR%20Manifest%20BLank%2010215.pdf" added="2022-01-05T20:16:15.172001Z" modified="2022-01-05T20:16:15.172038Z" visited="2022-01-05T20:16:15.172005Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-05T20:16:15.172017Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/Downloads/DGDR%20Manifest%20BLank%201110.pdf" added="2022-01-05T20:16:26.003403Z" modified="2022-01-05T20:16:26.003420Z" visited="2022-01-05T20:16:26.003406Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-05T20:16:26.003412Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/Downloads/DGDR%20Manifest%20BLank%2011101.pdf" added="2022-01-05T20:16:27.499621Z" modified="2022-01-05T20:16:27.499646Z" visited="2022-01-05T20:16:27.499634Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-05T20:16:27.499639Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/Downloads/DGDR%20Manifest%20BLank%2011102.pdf" added="2022-01-05T20:16:28.895991Z" modified="2022-01-05T20:16:28.896017Z" visited="2022-01-05T20:16:28.895993Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-05T20:16:28.896009Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/Downloads/DGDR%20Manifest%20BLank%2011103.pdf" added="2022-01-05T20:16:29.963891Z" modified="2022-01-05T20:16:29.963924Z" visited="2022-01-05T20:16:29.963896Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-05T20:16:29.963904Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/Downloads/DGDR%20Manifest%20BLank%2011104.pdf" added="2022-01-05T20:16:31.208971Z" modified="2022-01-05T20:16:31.209132Z" visited="2022-01-05T20:16:31.208976Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-05T20:16:31.209079Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/Downloads/DGDR%20Manifest%20BLank%2011105.pdf" added="2022-01-05T20:16:32.356336Z" modified="2022-01-05T20:16:32.356366Z" visited="2022-01-05T20:16:32.356341Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-05T20:16:32.356351Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/Downloads/DGDR%20Manifest%20BLank%2011106.pdf" added="2022-01-05T20:16:33.689300Z" modified="2022-01-05T20:16:33.689745Z" visited="2022-01-05T20:16:33.689339Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-05T20:16:33.689352Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/Downloads/DGDR%20Manifest%20BLank%2011107.pdf" added="2022-01-05T20:16:35.540095Z" modified="2022-01-05T20:16:35.540136Z" visited="2022-01-05T20:16:35.540098Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-05T20:16:35.540109Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/Downloads/DGDR%20Manifest%20BLank%2011108.pdf" added="2022-01-05T20:16:36.705961Z" modified="2022-01-05T20:16:36.705976Z" visited="2022-01-05T20:16:36.705962Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-05T20:16:36.705967Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/docs/meetingnotes.md" added="2022-01-06T19:21:08.422419Z" modified="2022-01-06T19:22:10.080830Z" visited="2022-01-06T19:21:08.422420Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/markdown"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-06T19:22:10.080824Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_bill0/9073A000000rHzkQAE-0EM3A0000003KjmWAE.png" added="2022-01-09T21:36:17.920763Z" modified="2022-01-09T21:36:17.920796Z" visited="2022-01-09T21:36:17.920764Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-09T21:36:17.920785Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_bill0/9073A000000rHzkQAE-0EM3A0000003KjrWAE.png" added="2022-01-09T21:36:42.092912Z" modified="2022-01-09T21:36:42.092926Z" visited="2022-01-09T21:36:42.092914Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-09T21:36:42.092919Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/sample.md" added="2022-01-11T02:45:37.398012Z" modified="2022-01-11T02:46:14.544822Z" visited="2022-01-11T02:45:37.398013Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/markdown"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-11T02:46:14.544820Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/Pictures/vim_marks.png" added="2022-01-11T02:50:53.602873Z" modified="2022-01-11T02:50:53.602879Z" visited="2022-01-11T02:50:53.602874Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-11T02:50:53.602875Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/bill/Downloads/Thoracic_Outlet_Syndrome.pdf" added="2022-01-11T05:02:45.641931Z" modified="2022-01-11T05:02:45.641948Z" visited="2022-01-11T05:02:45.641933Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-01-11T05:02:45.641939Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

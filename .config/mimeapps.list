@@ -1,6 +1,8 @@
 [Default Applications]
 x-scheme-handler/mailto=google-chrome.desktop
+x-scheme-handler/postman=Postman.desktop
 
 [Added Associations]
 application/pdf=libreoffice-draw.desktop;
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-draw.desktop;
+image/png=firefox.desktop;

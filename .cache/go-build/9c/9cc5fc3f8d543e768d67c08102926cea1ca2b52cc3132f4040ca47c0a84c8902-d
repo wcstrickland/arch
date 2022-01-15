@@ -1,0 +1,6 @@
+./config_cmd.go
+./formatting.go
+./github.go
+./gitlab.go
+./main.go
+./stash_cmd.go

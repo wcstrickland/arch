@@ -1,0 +1,61 @@
+[2022-01-13 22:58:34.118] [exthost] [info] Extension host with pid 3080 started
+[2022-01-13 22:58:34.118] [exthost] [info] Skipping acquiring lock for /home/bill/.config/Code/User/workspaceStorage/1871bede0f8cac87d0570312cfe9aa14.
+[2022-01-13 22:58:34.414] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-01-13 22:58:34.444] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-01-13 22:58:34.462] [exthost] [info] ExtensionService#_doActivateExtension salesforce.salesforce-vscode-slds, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-01-13 22:58:34.583] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-01-13 22:58:34.586] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-01-13 22:58:34.589] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer, startup: true, activationEvent: '*'
+[2022-01-13 22:58:34.614] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2022-01-13 22:58:34.711] [exthost] [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: true, activationEvent: '*'
+[2022-01-13 22:58:34.745] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-01-13 22:58:35.840] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-01-13 22:58:35.902] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-01-13 22:58:36.143] [exthost] [info] Eager extensions activated
+[2022-01-13 22:58:36.145] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-01-13 22:58:36.377] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-13 22:58:36.405] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-13 22:58:36.408] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-13 22:58:36.529] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-13 22:58:38.471] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-01-13 22:58:38.474] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-01-13 22:59:10.325] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-13 22:59:10.326] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-13 22:59:10.326] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-13 23:02:47.153] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-13 23:02:47.153] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-13 23:02:47.154] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-13 23:03:04.789] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-13 23:03:04.791] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-13 23:03:04.791] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-13 23:07:27.644] [exthost] [info] ExtensionService#_doActivateExtension ChakrounAnas.turbo-console-log, startup: false, activationEvent: 'onCommand:turboConsoleLog.displayLogMessage'
+[2022-01-13 23:37:03.070] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-13 23:37:24.639] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-13 23:37:24.639] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-13 23:37:33.539] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-13 23:37:33.540] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-13 23:37:33.540] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-13 23:37:36.966] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-13 23:37:36.966] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-13 23:43:51.898] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-13 23:51:58.446] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-13 23:52:04.167] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-13 23:52:04.167] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-14 00:24:06.784] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-14 00:24:06.784] [exthost] [warning] TextEditor is closed/disposed
+[2022-01-14 00:24:07.008] [exthost] [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+[2022-01-14 00:24:07.008] [exthost] [warning] {"name":"DISPOSED","message":"TextEditor(vs.editor.ICodeEditor:1,$model1) has been disposed"}
+[2022-01-14 00:24:07.707] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-01-14 00:24:08.178] [exthost] [error] TypeError: r.some is not a function
+    at Function.saveToDisk (/home/bill/.vscode/extensions/vscodevim.vim-1.21.10/src/register/register.ts:350:30)
+    at Object.e.deactivate (/home/bill/.vscode/extensions/vscodevim.vim-1.21.10/extension.ts:37:18)
+    at v._deactivate (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:11513)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:10061
+    at Array.map (<anonymous>)
+    at v.deactivateAll (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:10049)
+    at p.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:735)
+    at r (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:36400)
+    at Socket.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:34012)
+    at Socket.emit (events.js:327:22)
+    at Pipe.<anonymous> (net.js:673:12)
+[2022-01-14 00:24:08.178] [exthost] [info] Extension host with pid 3080 exiting with code 0

@@ -3,6 +3,12 @@
     "openedPathsList": {
         "entries": [
             {
+                "folderUri": "file:///home/bill/sftpsf"
+            },
+            {
+                "folderUri": "file:///home/bill"
+            },
+            {
                 "folderUri": "file:///home/bill/prog/py"
             },
             {
@@ -16,6 +22,9 @@
             },
             {
                 "folderUri": "file:///home/bill/startup"
+            },
+            {
+                "fileUri": "file:///home/bill/sftpsf/index.js"
             },
             {
                 "fileUri": "file:///home/bill/prog/py/error_check.py"
@@ -44,10 +53,6 @@
                         "label": "New &&Window"
                     },
                     {
-                        "id": "welcome.showNewFileEntries",
-                        "label": "New File..."
-                    },
-                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -63,7 +68,7 @@
                         "label": "Open Wor&&kspace from File..."
                     },
                     {
-                        "id": "submenuitem.30",
+                        "id": "submenuitem.31",
                         "label": "Open &&Recent",
                         "submenu": {
                             "items": [
@@ -78,7 +83,29 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/bill/prog/py",
+                                        "fsPath": "/home/bill/sftpsf",
+                                        "external": "file:///home/bill/sftpsf",
+                                        "path": "/home/bill/sftpsf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/sftpsf"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/bill",
+                                        "path": "/home/bill",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/bill"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/bill/prog/py",
                                         "path": "/home/bill/prog/py",
                                         "scheme": "file"
@@ -132,6 +159,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/bill/sftpsf/index.js",
+                                        "path": "/home/bill/sftpsf/index.js",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/sftpsf/index.js"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -214,13 +252,11 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "saveAll",
@@ -235,7 +271,7 @@
                         "label": "A&&uto Save"
                     },
                     {
-                        "id": "submenuitem.29",
+                        "id": "submenuitem.30",
                         "label": "&&Preferences",
                         "submenu": {
                             "items": [
@@ -303,13 +339,11 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -350,6 +384,22 @@
                         "label": "&&Copy"
                     },
                     {
+                        "id": "submenuitem.24",
+                        "label": "Copy As",
+                        "submenu": {
+                            "items": [
+                                {
+                                    "id": "gitlens.copyRemoteFileUrlToClipboard",
+                                    "label": "Copy Remote File Url"
+                                },
+                                {
+                                    "id": "gitlens.copyRemoteFileUrlFrom",
+                                    "label": "Copy Remote File Url From..."
+                                }
+                            ]
+                        }
+                    },
+                    {
                         "id": "editor.action.clipboardPasteAction",
                         "label": "&&Paste"
                     },
@@ -358,13 +408,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find",
-                        "enabled": false
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace",
-                        "enabled": false
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -485,7 +533,7 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.20",
+                        "id": "submenuitem.21",
                         "label": "&&Appearance",
                         "submenu": {
                             "items": [
@@ -567,7 +615,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.27",
+                        "id": "submenuitem.28",
                         "label": "Editor &&Layout",
                         "submenu": {
                             "items": [
@@ -663,10 +711,6 @@
                         "label": "E&&xtensions"
                     },
                     {
-                        "id": "workbench.view.extension.test",
-                        "label": "T&&esting"
-                    },
-                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -690,8 +734,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -733,7 +776,7 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.32",
+                        "id": "submenuitem.33",
                         "label": "Switch &&Editor",
                         "submenu": {
                             "items": [
@@ -782,7 +825,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.33",
+                        "id": "submenuitem.34",
                         "label": "Switch &&Group",
                         "submenu": {
                             "items": [
@@ -984,7 +1027,7 @@
                         "label": "Toggle &&Breakpoint"
                     },
                     {
-                        "id": "submenuitem.28",
+                        "id": "submenuitem.29",
                         "label": "&&New Breakpoint",
                         "submenu": {
                             "items": [
@@ -1183,10 +1226,6 @@
             "workbench.action.newWindow": {
                 "label": "Ctrl+Shift+N",
                 "userSettingsLabel": "ctrl+shift+n"
-            },
-            "welcome.showNewFileEntries": {
-                "label": "Ctrl+Alt+Super+N",
-                "userSettingsLabel": "ctrl+alt+meta+n"
             },
             "workbench.action.files.openFile": {
                 "label": "Ctrl+O",
@@ -1396,8 +1435,9 @@
                 "userSettingsLabel": "ctrl+shift+f"
             },
             "workbench.view.scm": {
-                "label": "Ctrl+Shift+G",
-                "userSettingsLabel": "ctrl+shift+g"
+                "label": "Ctrl+Shift+G G",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+shift+g g"
             },
             "workbench.view.debug": {
                 "label": "Ctrl+Shift+D",
@@ -1602,39 +1642,39 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1e1e1e",
+    "themeBackground": "#282c34",
     "windowSplash": {
         "baseTheme": "vs-dark",
         "colorInfo": {
             "foreground": "#cccccc",
-            "background": "#1e1e1e",
-            "editorBackground": "#1e1e1e",
-            "titleBarBackground": "#3c3c3c",
-            "activityBarBackground": "#333333",
-            "sideBarBackground": "#252526",
-            "statusBarBackground": "#007acc",
-            "statusBarNoFolderBackground": "#68217a"
+            "background": "#282c34",
+            "editorBackground": "#282c34",
+            "titleBarBackground": "#282c34",
+            "activityBarBackground": "#282c34",
+            "sideBarBackground": "#21252b",
+            "statusBarBackground": "#21252b",
+            "statusBarNoFolderBackground": "#21252b"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 196,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/bill/prog/py",
-            "backupPath": "/home/bill/.config/Code/Backups/22aee0486b548918f240739a87e256c6",
+            "folder": "file:///home/bill/sftpsf",
+            "backupPath": "/home/bill/.config/Code/Backups/c0df5eef16cd64dceb565129d3861a8f",
             "uiState": {
                 "mode": 1,
                 "x": 0,
                 "y": 0,
                 "width": 1920,
-                "height": 1059
+                "height": 1061
             }
         },
         "openedWindows": []

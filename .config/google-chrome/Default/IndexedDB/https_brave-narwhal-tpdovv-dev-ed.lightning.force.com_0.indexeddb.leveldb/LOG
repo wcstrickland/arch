@@ -1,0 +1,6 @@
+2022/01/05-17:00:34.128 1a2bb Creating DB /home/bill/.config/google-chrome/Default/IndexedDB/https_brave-narwhal-tpdovv-dev-ed.lightning.force.com_0.indexeddb.leveldb since it was missing.
+2022/01/05-17:00:34.138 1a2bb Reusing MANIFEST /home/bill/.config/google-chrome/Default/IndexedDB/https_brave-narwhal-tpdovv-dev-ed.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/01/05-17:00:35.239 1a2bb Level-0 table #5: started
+2022/01/05-17:00:35.245 1a2bb Level-0 table #5: 10825 bytes OK
+2022/01/05-17:00:35.248 1a2bb Delete type=0 #3
+2022/01/05-17:00:35.249 1a2bb Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

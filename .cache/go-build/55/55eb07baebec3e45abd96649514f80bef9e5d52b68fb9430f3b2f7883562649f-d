@@ -1,0 +1,6 @@
+./aur_info.go
+./aur_warnings.go
+./errors.go
+./filter.go
+./source.go
+./types.go

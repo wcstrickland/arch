@@ -6,6 +6,7 @@ fish_vi_key_bindings
 #alias rm="trash-put"
 alias grep='grep --color=auto'
 alias ls='exa'
+alias la='exa --all --long --git --header'
 alias cat='bat'
 alias ..='cd ..'
 alias mv='mv -i'
@@ -16,6 +17,7 @@ alias wifis='nmcli device wifi'
 alias grip='grip -b'
 alias hibernate='systemctl hibernate'
 alias tree='exa --git-ignore --tree'
+alias vim='vim -i .viminfo'
 function vima
     vim $argv ./*
 end

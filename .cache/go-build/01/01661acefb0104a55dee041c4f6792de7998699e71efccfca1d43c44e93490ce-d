@@ -1,0 +1,8 @@
+./handlebars.go
+./haskell.go
+./haxe.go
+./hcl.go
+./hexdump.go
+./html.go
+./http.go
+./hy.go

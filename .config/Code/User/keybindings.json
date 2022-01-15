@@ -29,15 +29,7 @@
         "command": "-workbench.action.focusLeftGroup"
     },
     {
-        "key": "backspace",
-        "command": "workbench.action.focusRightGroup"
-    },
-    {
         "key": "ctrl+k ctrl+right",
         "command": "-workbench.action.focusRightGroup"
-    },
-    {
-        "key": "backspace",
-        "command": "workbench.action.focusActiveEditorGroup"
     }
 ]

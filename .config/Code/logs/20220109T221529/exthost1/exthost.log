@@ -1,0 +1,38 @@
+[2022-01-09 22:15:31.504] [exthost] [info] Extension host with pid 206773 started
+[2022-01-09 22:15:31.504] [exthost] [info] Skipping acquiring lock for /home/bill/.config/Code/User/workspaceStorage/1871bede0f8cac87d0570312cfe9aa14.
+[2022-01-09 22:15:31.588] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-01-09 22:15:31.600] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-01-09 22:15:31.603] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-01-09 22:15:31.605] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2022-01-09 22:15:31.682] [exthost] [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: true, activationEvent: '*'
+[2022-01-09 22:15:31.717] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-01-09 22:15:31.902] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-01-09 22:15:31.915] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-01-09 22:15:31.935] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-01-09 22:15:32.036] [exthost] [info] Eager extensions activated
+[2022-01-09 22:15:32.053] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-09 22:15:32.060] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-09 22:15:32.062] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-09 22:15:32.072] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-09 22:15:32.109] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-09 22:15:35.036] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-01-09 22:15:35.038] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-01-09 22:15:35.088] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-01-09 22:15:39.254] [exthost] [info] ExtensionService#_doActivateExtension salesforce.salesforce-vscode-slds, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-01-09 22:16:16.667] [exthost] [info] ExtensionService#_doActivateExtension humao.rest-client, startup: false, activationEvent: 'onLanguage:http'
+[2022-01-09 22:55:30.759] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.references-view, startup: false, activationEvent: 'onCommand:references-view.findReferences'
+[2022-01-10 01:01:53.024] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-01-10 01:01:53.084] [exthost] [warning] {"name":"Canceled"}
+[2022-01-10 01:01:53.488] [exthost] [error] TypeError: r.some is not a function
+    at Function.saveToDisk (/home/bill/.vscode/extensions/vscodevim.vim-1.21.10/src/register/register.ts:350:30)
+    at Object.e.deactivate (/home/bill/.vscode/extensions/vscodevim.vim-1.21.10/extension.ts:37:18)
+    at v._deactivate (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:11513)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:10061
+    at Array.map (<anonymous>)
+    at v.deactivateAll (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:10049)
+    at p.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:735)
+    at r (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:36400)
+    at Socket.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:34012)
+    at Socket.emit (events.js:327:22)
+    at Pipe.<anonymous> (net.js:673:12)
+[2022-01-10 01:01:53.488] [exthost] [info] Extension host with pid 206773 exiting with code 0

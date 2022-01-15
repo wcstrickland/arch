@@ -1,0 +1,37 @@
+{
+    "name": "@types/combined-stream",
+    "version": "1.0.3",
+    "description": "TypeScript definitions for combined-stream",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/combined-stream",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Felix Geisendörfer",
+            "url": "https://github.com/felixge",
+            "githubUsername": "felixge"
+        },
+        {
+            "name": "Tomek Łaziuk",
+            "url": "https://github.com/tlaziuk",
+            "githubUsername": "tlaziuk"
+        },
+        {
+            "name": "Kon Pik",
+            "url": "https://github.com/konpikwastaken",
+            "githubUsername": "konpikwastaken"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/combined-stream"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/node": "*"
+    },
+    "typesPublisherContentHash": "47dc577dbb328f12ce8553bbfc723495760e8836ac1b2b1549567a1405ad4e56",
+    "typeScriptVersion": "3.6"
+}

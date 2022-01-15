@@ -1,0 +1,67 @@
+[2022-01-09 16:01:35.177] [sharedprocess] [info] Starting worker process with pid 167766 (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-09 16:01:38.336] [sharedprocess] [info] Installing extension: salesforce.salesforcedx-vscode-core
+[2022-01-09 16:01:38.352] [sharedprocess] [info] Installing extension: salesforce.salesforcedx-vscode-apex-debugger
+[2022-01-09 16:01:38.364] [sharedprocess] [info] Installing extension: salesforce.salesforcedx-vscode-visualforce
+[2022-01-09 16:01:38.369] [sharedprocess] [info] Installing extension: salesforce.salesforcedx-vscode
+[2022-01-09 16:01:38.378] [sharedprocess] [info] Installing extension: salesforce.salesforcedx-vscode-lightning
+[2022-01-09 16:01:38.379] [sharedprocess] [info] Installing extension: salesforce.salesforcedx-vscode-soql
+[2022-01-09 16:01:38.385] [sharedprocess] [info] Installing extension: salesforce.salesforcedx-vscode-apex-replay-debugger
+[2022-01-09 16:01:38.389] [sharedprocess] [info] Installing extension: salesforce.salesforcedx-vscode-lwc
+[2022-01-09 16:01:38.391] [sharedprocess] [info] Installing extension: salesforce.salesforcedx-vscode-apex
+[2022-01-09 16:01:38.407] [sharedprocess] [info] Installing extension: zhuangtongfa.material-theme
+[2022-01-09 16:01:40.752] [sharedprocess] [info] Installing extension: dbaeumer.vscode-eslint
+[2022-01-09 16:01:42.079] [sharedprocess] [info] Downloaded extension: dbaeumer.vscode-eslint /home/bill/.config/Code/CachedExtensionVSIXs/dbaeumer.vscode-eslint-2.2.2
+[2022-01-09 16:01:42.141] [sharedprocess] [info] Downloaded extension: zhuangtongfa.material-theme /home/bill/.config/Code/CachedExtensionVSIXs/zhuangtongfa.material-theme-3.13.10
+[2022-01-09 16:01:42.338] [sharedprocess] [info] Extracted extension to /home/bill/.vscode/extensions/.b9e58fc7-a577-408c-a6bb-ed6f1e340cb0: zhuangtongfa.material-theme
+[2022-01-09 16:01:42.347] [sharedprocess] [info] Renamed to /home/bill/.vscode/extensions/zhuangtongfa.material-theme-3.13.10
+[2022-01-09 16:01:42.349] [sharedprocess] [info] Extracting completed. zhuangtongfa.material-theme
+[2022-01-09 16:01:42.361] [sharedprocess] [info] Extension installed successfully: zhuangtongfa.material-theme
+[2022-01-09 16:01:42.685] [sharedprocess] [info] Extracted extension to /home/bill/.vscode/extensions/.159dea00-1b17-4f71-a87d-02088565c4ad: dbaeumer.vscode-eslint
+[2022-01-09 16:01:42.692] [sharedprocess] [info] Renamed to /home/bill/.vscode/extensions/dbaeumer.vscode-eslint-2.2.2
+[2022-01-09 16:01:42.696] [sharedprocess] [info] Extracting completed. dbaeumer.vscode-eslint
+[2022-01-09 16:01:47.152] [sharedprocess] [info] Downloaded extension: salesforce.salesforcedx-vscode /home/bill/.config/Code/CachedExtensionVSIXs/salesforce.salesforcedx-vscode-53.12.0
+[2022-01-09 16:01:47.160] [sharedprocess] [info] Downloaded extension: salesforce.salesforcedx-vscode-apex-debugger /home/bill/.config/Code/CachedExtensionVSIXs/salesforce.salesforcedx-vscode-apex-debugger-53.12.0
+[2022-01-09 16:01:47.175] [sharedprocess] [info] Extracted extension to /home/bill/.vscode/extensions/.883a7710-669b-464f-9a1f-ccf688a6fba6: salesforce.salesforcedx-vscode
+[2022-01-09 16:01:47.188] [sharedprocess] [info] Renamed to /home/bill/.vscode/extensions/salesforce.salesforcedx-vscode-53.12.0
+[2022-01-09 16:01:47.192] [sharedprocess] [info] Extracting completed. salesforce.salesforcedx-vscode
+[2022-01-09 16:01:47.209] [sharedprocess] [info] Extension installed successfully: salesforce.salesforcedx-vscode
+[2022-01-09 16:01:48.228] [sharedprocess] [info] Downloaded extension: salesforce.salesforcedx-vscode-visualforce /home/bill/.config/Code/CachedExtensionVSIXs/salesforce.salesforcedx-vscode-visualforce-53.12.0
+[2022-01-09 16:01:48.378] [sharedprocess] [info] Extracted extension to /home/bill/.vscode/extensions/.138cb89a-72c0-4c9a-9c75-88f4e59e17ff: salesforce.salesforcedx-vscode-apex-debugger
+[2022-01-09 16:01:48.394] [sharedprocess] [info] Renamed to /home/bill/.vscode/extensions/salesforce.salesforcedx-vscode-apex-debugger-53.12.0
+[2022-01-09 16:01:48.396] [sharedprocess] [info] Extracting completed. salesforce.salesforcedx-vscode-apex-debugger
+[2022-01-09 16:01:48.404] [sharedprocess] [info] Extension installed successfully: salesforce.salesforcedx-vscode-apex-debugger
+[2022-01-09 16:01:49.329] [sharedprocess] [info] Downloaded extension: salesforce.salesforcedx-vscode-soql /home/bill/.config/Code/CachedExtensionVSIXs/salesforce.salesforcedx-vscode-soql-53.12.0
+[2022-01-09 16:01:49.398] [sharedprocess] [info] Extracted extension to /home/bill/.vscode/extensions/.40b914f0-e0fe-45a1-8597-06cf200b07e4: salesforce.salesforcedx-vscode-visualforce
+[2022-01-09 16:01:49.405] [sharedprocess] [info] Renamed to /home/bill/.vscode/extensions/salesforce.salesforcedx-vscode-visualforce-53.12.0
+[2022-01-09 16:01:49.408] [sharedprocess] [info] Extracting completed. salesforce.salesforcedx-vscode-visualforce
+[2022-01-09 16:01:49.413] [sharedprocess] [info] Extension installed successfully: salesforce.salesforcedx-vscode-visualforce
+[2022-01-09 16:01:49.619] [sharedprocess] [info] Downloaded extension: salesforce.salesforcedx-vscode-apex-replay-debugger /home/bill/.config/Code/CachedExtensionVSIXs/salesforce.salesforcedx-vscode-apex-replay-debugger-53.12.0
+[2022-01-09 16:01:49.898] [sharedprocess] [info] Downloaded extension: salesforce.salesforcedx-vscode-lightning /home/bill/.config/Code/CachedExtensionVSIXs/salesforce.salesforcedx-vscode-lightning-53.12.0
+[2022-01-09 16:01:54.399] [sharedprocess] [info] Downloaded extension: salesforce.salesforcedx-vscode-apex /home/bill/.config/Code/CachedExtensionVSIXs/salesforce.salesforcedx-vscode-apex-53.12.0
+[2022-01-09 16:01:55.188] [sharedprocess] [info] Extracted extension to /home/bill/.vscode/extensions/.2a578451-d915-471f-b7db-af4b071c2696: salesforce.salesforcedx-vscode-soql
+[2022-01-09 16:01:55.209] [sharedprocess] [info] Renamed to /home/bill/.vscode/extensions/salesforce.salesforcedx-vscode-soql-53.12.0
+[2022-01-09 16:01:55.213] [sharedprocess] [info] Extracting completed. salesforce.salesforcedx-vscode-soql
+[2022-01-09 16:01:55.222] [sharedprocess] [info] Extension installed successfully: salesforce.salesforcedx-vscode-soql
+[2022-01-09 16:01:55.841] [sharedprocess] [info] Downloaded extension: salesforce.salesforcedx-vscode-lwc /home/bill/.config/Code/CachedExtensionVSIXs/salesforce.salesforcedx-vscode-lwc-53.12.0
+[2022-01-09 16:01:55.844] [sharedprocess] [info] Downloaded extension: salesforce.salesforcedx-vscode-core /home/bill/.config/Code/CachedExtensionVSIXs/salesforce.salesforcedx-vscode-core-53.12.0
+[2022-01-09 16:01:59.333] [sharedprocess] [info] Extracted extension to /home/bill/.vscode/extensions/.18309be0-e19d-419f-b2f5-41da4b8d1729: salesforce.salesforcedx-vscode-apex-replay-debugger
+[2022-01-09 16:01:59.374] [sharedprocess] [info] Renamed to /home/bill/.vscode/extensions/salesforce.salesforcedx-vscode-apex-replay-debugger-53.12.0
+[2022-01-09 16:01:59.382] [sharedprocess] [info] Extracting completed. salesforce.salesforcedx-vscode-apex-replay-debugger
+[2022-01-09 16:01:59.402] [sharedprocess] [info] Extension installed successfully: salesforce.salesforcedx-vscode-apex-replay-debugger
+[2022-01-09 16:02:00.773] [sharedprocess] [info] Extracted extension to /home/bill/.vscode/extensions/.b2c60a30-34b8-43d3-8f10-9e742e018046: salesforce.salesforcedx-vscode-lightning
+[2022-01-09 16:02:00.797] [sharedprocess] [info] Renamed to /home/bill/.vscode/extensions/salesforce.salesforcedx-vscode-lightning-53.12.0
+[2022-01-09 16:02:00.802] [sharedprocess] [info] Extracting completed. salesforce.salesforcedx-vscode-lightning
+[2022-01-09 16:02:00.812] [sharedprocess] [info] Extension installed successfully: salesforce.salesforcedx-vscode-lightning
+[2022-01-09 16:02:05.378] [sharedprocess] [info] Extracted extension to /home/bill/.vscode/extensions/.c8ab6ba5-6fef-4ac8-98fe-d82fc46de28d: salesforce.salesforcedx-vscode-apex
+[2022-01-09 16:02:05.387] [sharedprocess] [info] Renamed to /home/bill/.vscode/extensions/salesforce.salesforcedx-vscode-apex-53.12.0
+[2022-01-09 16:02:05.390] [sharedprocess] [info] Extracting completed. salesforce.salesforcedx-vscode-apex
+[2022-01-09 16:02:05.397] [sharedprocess] [info] Extension installed successfully: salesforce.salesforcedx-vscode-apex
+[2022-01-09 16:02:20.857] [sharedprocess] [info] Extracted extension to /home/bill/.vscode/extensions/.41cff5e5-9fab-44e0-b225-76ffede1e203: salesforce.salesforcedx-vscode-lwc
+[2022-01-09 16:02:20.879] [sharedprocess] [info] Renamed to /home/bill/.vscode/extensions/salesforce.salesforcedx-vscode-lwc-53.12.0
+[2022-01-09 16:02:20.882] [sharedprocess] [info] Extracting completed. salesforce.salesforcedx-vscode-lwc
+[2022-01-09 16:02:20.891] [sharedprocess] [info] Extension installed successfully: dbaeumer.vscode-eslint
+[2022-01-09 16:02:20.891] [sharedprocess] [info] Extension installed successfully: salesforce.salesforcedx-vscode-lwc
+[2022-01-09 16:02:23.178] [sharedprocess] [info] Extracted extension to /home/bill/.vscode/extensions/.39293f9f-8da8-43b7-bd9c-6ec0153d2d30: salesforce.salesforcedx-vscode-core
+[2022-01-09 16:02:23.203] [sharedprocess] [info] Renamed to /home/bill/.vscode/extensions/salesforce.salesforcedx-vscode-core-53.12.0
+[2022-01-09 16:02:23.207] [sharedprocess] [info] Extracting completed. salesforce.salesforcedx-vscode-core
+[2022-01-09 16:02:23.219] [sharedprocess] [info] Extension installed successfully: salesforce.salesforcedx-vscode-core

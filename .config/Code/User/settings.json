@@ -9,17 +9,36 @@
       ],
       "after": [
         "<Esc>",
+      ],
+      "commands": [
+        ":nohl"
       ]
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": [
-        "H"
+        "*"
       ],
       "after": [
-        "g",
-        "T"
+        "*",
+        "N"
+      ]
+    },
+    {
+      "before": [
+        "-"
+      ],
+      "commands": [
+        ":bn"
+      ]
+    },
+    {
+      "before": [
+        "K"
+      ],
+      "after": [
+        "{"
       ]
     },
     {
@@ -27,8 +46,7 @@
         "J"
       ],
       "after": [
-        "g",
-        "t"
+        "}"
       ]
     },
     {
@@ -53,7 +71,7 @@
     },
     {
       "before": [
-        "<leader>",
+        "z",
         "q"
       ],
       "after": [
@@ -63,16 +81,7 @@
     },
     {
       "before": [
-        "<leader>",
-        "w"
-      ],
-      "after": [
-        ":w"
-      ]
-    },
-    {
-      "before": [
-        "-"
+        "H"
       ],
       "after": [
         "_"
@@ -80,164 +89,12 @@
     },
     {
       "before": [
-        "+"
+        "L"
       ],
       "after": [
         "$"
       ]
     },
-    {
-      "before": [
-        "<leader>",
-        "("
-      ],
-      "after": [
-        "d",
-        "i",
-        "w",
-        "i",
-        "(",
-        ")",
-        "<esc>",
-        "P"
-      ]
-    },
-    {
-      "before": [
-        "<leader>",
-        "["
-      ],
-      "after": [
-        "d",
-        "i",
-        "w",
-        "i",
-        "[",
-        "]",
-        "<esc>",
-        "P"
-      ]
-    },
-    {
-      "before": [
-        "<leader>",
-        "{"
-      ],
-      "after": [
-        "d",
-        "i",
-        "w",
-        "i",
-        "{",
-        "}",
-        "<esc>",
-        "P"
-      ]
-    },
-    {
-      "before": [
-        "<leader>",
-        "'"
-      ],
-      "after": [
-        "d",
-        "i",
-        "w",
-        "i",
-        "'",
-        "'",
-        "<esc>",
-        "P"
-      ]
-    },
-    {
-      "before": [
-        "<leader>",
-        "\""
-      ],
-      "after": [
-        "d",
-        "i",
-        "w",
-        "i",
-        "\"",
-        "\"",
-        "<esc>",
-        "P"
-      ]
-    },
-  ],
-  "vim.visualModeKeyBindingsNonRecursive": [
-    {
-      "before": [
-        "<leader>",
-        "("
-      ],
-      "after": [
-        "d",
-        "i",
-        "(",
-        ")",
-        "<esc>",
-        "P"
-      ]
-    },
-    {
-      "before": [
-        "<leader>",
-        "["
-      ],
-      "after": [
-        "d",
-        "i",
-        "[",
-        "]",
-        "<esc>",
-        "P"
-      ]
-    },
-    {
-      "before": [
-        "<leader>",
-        "{"
-      ],
-      "after": [
-        "d",
-        "i",
-        "{",
-        "}",
-        "<esc>",
-        "P"
-      ]
-    },
-    {
-      "before": [
-        "<leader>",
-        "'"
-      ],
-      "after": [
-        "d",
-        "i",
-        "'",
-        "'",
-        "<esc>",
-        "P"
-      ]
-    },
-    {
-      "before": [
-        "<leader>",
-        "\""
-      ],
-      "after": [
-        "d",
-        "i",
-        "\"",
-        "\"",
-        "<esc>",
-        "P"
-      ]
-    }
   ],
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
@@ -245,6 +102,7 @@
   "vim.hlsearch": true,
   "vim.handleKeys": {
     "<C-a>": false,
+    "<C-b>": false,
     "<C-f>": false
   },
   "editor.formatOnSave": true,
@@ -256,8 +114,8 @@
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "editor.minimap.enabled": false,
+  "editor.lineNumbers": "relative",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorTheme": "One Dark Pro",
   "security.workspace.trust.untrustedFiles": "open",
   "files.associations": {
     "*.gohtml": "html",
@@ -274,5 +132,8 @@
     "**/.factorypath": true
   },
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.zoomLevel": 2,
+  "bracketPairColorizer.depreciation-notice": false,
+  "workbench.colorTheme": "One Dark Pro"
 }
