@@ -1,4 +1,0 @@
-[2022-01-11 12:05:23.135] [exthost] [info] Extension host with pid 238109 started
-[2022-01-11 12:05:23.135] [exthost] [info] Skipping acquiring lock for /home/bill/.config/Code/User/workspaceStorage/1871bede0f8cac87d0570312cfe9aa14.
-[2022-01-11 12:05:23.180] [exthost] [info] extension host terminating: renderer closed the socket
-[2022-01-11 12:05:23.181] [exthost] [info] Extension host with pid 238109 exiting with code 0

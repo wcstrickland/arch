@@ -1,9 +1,0 @@
-[2022-01-09 16:01:32.579] [main] [info] update#setState idle
-[2022-01-09 16:01:32.642] [main] [info] ExtensionHostStarterWorker created
-[2022-01-09 16:01:33.749] [main] [info] Starting extension host with pid 167721 (fork() took 18 ms).
-[2022-01-09 16:02:02.579] [main] [info] update#setState checking for updates
-[2022-01-09 16:02:02.680] [main] [info] update#setState idle
-[2022-01-09 17:02:02.664] [main] [info] update#setState checking for updates
-[2022-01-09 17:02:03.194] [main] [info] update#setState idle
-[2022-01-09 17:38:02.762] [main] [info] Waiting for extension host with pid 167721 to exit.
-[2022-01-09 17:38:03.223] [main] [info] Extension host with pid 167721 exited with code: 0, signal: null.

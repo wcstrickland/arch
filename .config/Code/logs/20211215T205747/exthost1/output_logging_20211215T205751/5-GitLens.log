@@ -1,5 +1,0 @@
-[2021-12-16 02:57:51:909] [/home/bill/prog/py] Git Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 78 ms 
-[2021-12-16 02:58:20:479] [/home/bill/prog/py] Git Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 19 ms 
-[2021-12-16 03:01:27:698] [/home/bill/prog/py] Git Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 24 ms 
-[2021-12-16 03:06:25:130] [/home/bill/prog/py] Git Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 7 ms 
-[2021-12-16 03:06:57:232] [/home/bill/prog/py] Git Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 13 ms 

@@ -1,1 +1,0 @@
-[2022-01-10 21:44:43:020] [/home/bill/sftpsf] Git Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 80,80:index.js • file index.js has only 43 lines • 12 ms 

@@ -8,10 +8,8 @@ binutils
 bison
 cheese
 cmake
-cmatrix
 cowsay
 dhcpcd
-discord
 dosfstools
 efibootmgr
 ethtool
@@ -27,11 +25,8 @@ flameshot
 flex
 gawk
 gcc
-gdm
 gettext
 git
-gnome-keyring
-google-chrome
 gpicview
 grep
 groff
@@ -42,8 +37,6 @@ htop
 i3-gaps
 inetutils
 iputils
-libgnome-keyring
-libreoffice-still
 libtool
 linux
 linux-firmware
@@ -69,10 +62,8 @@ neofetch
 net-tools
 netctl
 networkmanager
-npm
 ntfs-3g
 onefetch
-openbox
 os-prober
 pacman
 patch
@@ -91,15 +82,9 @@ sed
 shutter
 starship
 sudo
-terminator
 texinfo
 tldr
-tor
-torbrowser-launcher
-trash-cli
-typescript
 urxvt-perls
-visual-studio-code-bin
 vlc
 wget
 which
@@ -145,5 +130,3 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 xterm
-yay-bin
-zoom

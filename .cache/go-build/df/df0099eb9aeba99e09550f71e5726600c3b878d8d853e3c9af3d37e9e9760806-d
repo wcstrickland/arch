@@ -1,4 +1,0 @@
-./term.go
-./term_unix.go
-./term_unix_linux.go
-./terminal.go
